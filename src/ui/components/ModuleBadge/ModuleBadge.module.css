@@ -1,0 +1,46 @@
+.outerdiv {
+  position: relative;
+  width: 50px;
+  height: 50px;
+}
+.outerdiv :hover {
+  cursor: pointer;
+}
+
+.compass {
+  position: absolute;
+  width: 100%;
+  top: 0;
+}
+
+.innerdiv {
+  position: absolute;
+  transform: rotate(360deg) scaleX(-1);
+}
+
+.selected {
+  color: #E6F1F2 !important;
+}
+
+.not_selected {
+  color: #fafafa !important;
+}
+
+.secondary {
+  color: transparent !important;
+}
+
+.modulename {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.adjust {
+  margin-left: -50%;
+}
+
+.adjust_circle {
+  transform: rotate(30deg) !important;
+}
+
+/*# sourceMappingURL=ModuleBadge.module.css.map */

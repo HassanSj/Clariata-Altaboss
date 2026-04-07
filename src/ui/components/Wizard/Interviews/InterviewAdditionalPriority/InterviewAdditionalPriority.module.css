@@ -1,0 +1,113 @@
+.actions_container {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.responses_wrapper {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.responses_action {
+  text-align: right;
+  margin-bottom: 15px;
+}
+
+.responses_container {
+  display: block;
+  width: 100%;
+}
+
+.question_container {
+  display: block;
+  margin-bottom: 15px !important;
+}
+
+.question_header {
+  display: flex;
+  align-items: center;
+  background-color: #c9e6e9 !important;
+  border-bottom: 4px solid #78c1c7 !important;
+}
+.question_header .header_action_chip {
+  min-width: 150px !important;
+  height: 40px !important;
+  background: #78c1c7 !important;
+  color: #000 !important;
+}
+.question_header .header_question {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+}
+.question_header .header_action {
+  display: flex;
+  align-items: center;
+  text-align: right;
+  margin-right: 15px;
+}
+.question_header .header_action .star {
+  margin-right: 10px !important;
+}
+.question_header .header_action .star_filled {
+  color: #f1c40f !important;
+}
+.question_header .header_button {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.child_question_header {
+  background-color: #fff !important;
+}
+
+.parent_question_header {
+  border-bottom: 3px solid #78c1c7 !important;
+}
+
+.question_text {
+  font-size: 1.2rem !important;
+  font-weight: bold !important;
+}
+
+.text_header {
+  font-size: 0.7rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #7f8c8d;
+  border-bottom: 2px solid #78c1c7;
+  margin-bottom: 5px;
+  padding: 8px;
+}
+
+.subquestions_header {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.subquestions_container {
+  padding-left: 10px !important;
+  border-left: 15px solid #ddd;
+}
+
+.subquestions_toggle {
+  margin-bottom: 15px;
+}
+
+.text_body {
+  font-size: 1rem;
+}
+
+.question_clickable:hover {
+  cursor: pointer !important;
+  opacity: 0.6;
+}
+
+.response_container {
+  border-bottom: 2px solid #f2f2f2;
+  padding: 10px 0px;
+}
+
+/*# sourceMappingURL=InterviewAdditionalPriority.module.css.map */

@@ -1,0 +1,75 @@
+@import '../../../../public/styles/colors.scss';
+
+.timeline {
+  margin-left: -80px;
+}
+
+.flex {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.media {
+  height: 120px;
+  cursor: pointer;
+}
+
+.widget {
+  text-align: center !important;
+  border: 2px solid $color-brand-light-blue;
+  min-height: 150px;
+  margin-bottom: 10px;
+}
+
+.widget_icon_container {
+
+}
+
+.widget_icon {
+  font-size: 34px !important;
+  color: $color-primary;
+}
+
+.widget_title {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.widget_content {
+  font-size: 16px;
+}
+
+.widget_with_image {
+  .widget_content_container {
+    margin-top: -130px;
+    color: $color-white !important;
+
+    .widget_icon {
+      color: $color-white !important;
+    }
+  }
+}
+
+.widget_bg_image_wrapper {
+  margin-top: -25px;
+  margin-left: -25px;
+  margin-right: -25px;
+
+  .widget_bg_image {
+    display: block;
+    width: 100%;
+  }
+}
+
+
+.content_bottom {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.clickable {
+  &:hover {
+    cursor: pointer !important;
+  }
+}

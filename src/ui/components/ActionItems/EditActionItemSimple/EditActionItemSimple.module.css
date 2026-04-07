@@ -1,0 +1,106 @@
+.center {
+  text-align: center;
+}
+
+.wrapper {
+  border: 3px solid #f5f5f5;
+  padding: 25px 0 0;
+  margin-bottom: 25px;
+  border-radius: 8px;
+}
+.wrapper .header {
+  padding: 0 15px;
+  text-transform: uppercase !important;
+  font-weight: bold !important;
+  font-size: 0.9rem !important;
+  line-height: 1.5;
+}
+.wrapper .formWrapper {
+  display: flex;
+  flex: 0 0 100%;
+}
+.wrapper .formWrapper .form {
+  flex-grow: 1;
+}
+.wrapper .formWrapper .actions {
+  padding-left: 10px;
+}
+.wrapper .formWrapper .MuiFormControl-root {
+  background: #fff !important;
+}
+
+.action {
+  height: 55px !important;
+}
+
+.task_panel_header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.task_panel_header > div {
+  width: 45%;
+}
+
+.task_panel_title {
+  font-size: 0.8rem !important;
+  color: #999;
+  padding-left: 5px;
+}
+
+.task_panel_actions {
+  font-size: 0.8rem !important;
+  text-align: right;
+}
+
+.task_panel_items {
+  line-height: 45px;
+}
+
+.task_panel_items_buttons {
+  display: inline-flex;
+}
+
+.task_children_wrapper {
+  margin-top: 15px;
+}
+
+.task_children_card {
+  margin-bottom: 15px;
+}
+
+.task_children_title {
+  font-size: 1rem;
+}
+
+.stakeholders_container {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 25px;
+}
+
+.stakeholders {
+  float: left;
+  margin-right: 15px;
+}
+
+.stakeholders_right {
+  float: right;
+  margin-right: 0px;
+}
+
+.stakeholder {
+  margin-right: 10px;
+}
+
+.stakeholder_add {
+  color: #999 !important;
+}
+
+.success_image {
+  max-height: 350px !important;
+}
+
+/*# sourceMappingURL=EditActionItemSimple.module.css.map */

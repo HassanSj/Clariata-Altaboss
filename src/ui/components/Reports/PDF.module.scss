@@ -1,0 +1,105 @@
+@import '../../../../public/styles/colors.scss';
+
+.report_wrapper {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  padding: 10px;
+  width: 774px;
+}
+
+.report_page_header {
+  padding: 15px 0px;
+}
+
+.report_page_header_logo > img {
+  height: 60px;
+}
+
+.report_page_subheader {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  clear: both;
+  color: $color-white !important;
+  background: $color-primary !important;
+  padding: 15px 20px;
+  margin-bottom: 15px;
+}
+
+.evaluation_question {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  clear: both;
+  color: $color-white !important;
+  background: $color-primary !important;
+  padding: 15px 20px;
+}
+
+.evaluation_response {
+  border: 1px solid lightblue;
+  height: 100px;
+  padding: 15px 20px;
+}
+
+.evaluation_section {
+  margin-bottom: 30px;
+}
+
+p.score {
+  font-size: medium;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+p.value {
+  font-size: small;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.evaluation_score {
+  max-height: 50px;
+  border: 1px solid lightblue;
+}
+
+.evaluation_score.active {
+  background: #183f69 !important;
+}
+
+.report_page_content {
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+
+.report_page_footer {
+  padding-top: 10px;
+  border-top: 1px solid $color-primary !important;
+}
+
+.report_page_footer_number {
+  text-align: right;
+}
+
+.report_subheader {
+  text-align: center;
+  padding: 10px 0px;
+  font-size: 1.2rem !important;
+  font-weight: bold !important;
+  color: $color-primary !important;
+  border-top: 2px solid $color-primary !important;
+  border-bottom: 2px solid $color-primary !important;
+}
+
+.report_subheader > .report_subheader_icon {
+  margin-right: 15px;
+  color: $color-primary !important;
+  padding-top: 5px !important;
+}
+

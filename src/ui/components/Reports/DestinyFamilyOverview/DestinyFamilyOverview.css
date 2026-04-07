@@ -1,0 +1,42 @@
+.familyOverview-person {
+    color: #ffffff;
+    background-color: #173d68;
+    padding: 5px;
+}
+
+.k-pdf-export .familyOverview-person {
+    font-size: 10px;
+    color: #ffffff;
+    background-color: #173d68;
+    padding: 5px;
+}
+
+.familyOverview-category {
+    color: #173d68;
+    background-color: #f0f7f3;
+    padding: 5px;
+    border: thin solid #72c8c9;
+}
+
+.k-pdf-export .familyOverview-category {
+    font-size: 8px;
+    color: #173d68;
+    background-color: #f0f7f3;
+    padding: 5px;
+    border: thin solid #72c8c9;
+}
+
+.familyOverview-subcategory {
+    padding: 5px;
+    border: thin solid #72c8c9;
+    column-count: 2;
+    column-gap: 10px;
+}
+
+.k-pdf-export .familyOverview-subcategory {
+    font-size: 8px;
+    padding: 5px;
+    border: thin solid #72c8c9;
+    column-count: 2;
+    column-gap: 10px;
+}

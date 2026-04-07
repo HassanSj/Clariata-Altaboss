@@ -1,0 +1,710 @@
+.orange {
+    color: #d64f23;
+  }
+  
+  .turquoise {
+    color: #7acaca;
+  }
+  
+  .blue {
+    color: #21466e;
+    font-weight: normal;
+  }
+  
+  .executive {
+      background-color: #f15929 !important;
+  }
+  
+  .discover {
+      background-color: #173d68 !important;
+  }
+  
+  .dream {
+      background-color: #34699d !important;
+  }
+  
+  .direction {
+      background-color: #4e8ab7 !important;
+  }
+  
+  .final {
+      background-color: #71c7c7 !important;
+  }
+  
+  /* Cover Page */
+  .tablePages {
+    height: 792px;
+    max-height: 792px;
+    width: 945px;
+    margin: 0;
+    border: thin solid #ffffff;
+    border-collapse: collapse;
+    background-color: #ffffff;
+  }
+  
+  .tablePages tr {
+    vertical-align: top;
+  }
+  
+  .tablePageLandscape {
+    height: 612px;
+    max-height: 612px;
+    width: 100px;
+    max-width: 792px;
+    margin: 0;
+    border: thin solid #ffffff;
+    border-collapse: collapse;
+    background-color: #ffffff;
+  }
+  
+  .tablePages-landscape tr {
+    vertical-align: top;
+  }
+  
+  .tablePages-wide {
+    height: 792px;
+    width: 612px;
+    border: thin solid #ffffff;
+    border-collapse: collapse;
+    background-color: #ffffff;
+  }
+  
+    .upper-content {
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 402px;
+      /* left: calc(50% - 190px); */
+      text-align: center;
+      max-width: 612px;
+      font-family: "font-family: 'Akzidenz Grotesk BE';";
+    }
+    
+    /* .k-pdf-export .upper-content {
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      font-family: "font-family: 'Akzidenz Grotesk BE';";
+    } */
+    
+    .guidebook-title {
+      text-align: center;
+      font-size: 39px;
+      font-weight: 800;
+      letter-spacing: -0.04px;
+      margin-bottom: 0px;
+      font-family: 'Akzidenz Grotesk BE';
+    }
+    
+    .k-pdf-export .guidebook-title {
+      text-align: center;
+      font-size: 39px;
+      font-weight: 800;
+      letter-spacing: -0.04px;
+      margin-bottom: 0px;
+      margin-top: 50px;
+      font-family: 'Akzidenz Grotesk BE';
+    } 
+    
+    .upper-content .guidebook-lifemap {
+      font-size: 23.75px;
+      letter-spacing: .2px;
+      margin-top: 0px;
+      font-family: 'Akzidenz Grotesk BE';
+    }
+  
+    /* Thinner Font */
+    .k-pdf-export .upper-content .guidebook-lifemap {
+      font-size: 23.75px;
+      letter-spacing: .2px;
+      margin-top: 0px;
+      font-family: 'Akzidenz Grotesk BE';
+    }
+    
+    .bottom-content {
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 144px;
+      min-width: 100%;
+      text-align: center;
+    }
+    
+    /* .k-pdf-export .bottom-content {
+      position: absolute;
+      top: 650px;
+      left: 80px;
+      min-width: 100%;
+    } */
+    
+    .guidebook-provided {
+      padding-bottom: 34px;
+      font-size: 13px;
+      letter-spacing: .13px;
+      font-family: 'Akzidenz Grotesk BE';
+    }
+    
+    /* .k-pdf-export .guidebook-provided {
+      font-size: 15px;
+      letter-spacing: 0.2px;
+      text-align: center;
+      font-family: 'Akzidenz Grotesk BE';
+    } */
+    
+    .logo, .bottom-content .logo-text {
+      display: block;
+      margin: 0 auto;
+    }
+    .logo {
+      padding-bottom: 6px;
+    }
+    .logo-text {
+      font-size: 13px;
+      font-family: 'Akzidenz Grotesk BE';
+    }
+  
+    /* .k-pdf-export .logo-text {
+      font-size: 13px;
+      font-family: 'Akzidenz Grotesk BE';
+    } */
+  
+  /* End Cover Page */
+  
+  
+  /* Table of Contents */
+  
+  .content-page {
+    margin-top: 36px;
+    margin-left: 54px;
+    margin-right: 71px;
+  }
+  
+  .content-row {
+    display: flex;
+    margin-top: 130.5px;
+  }
+  
+  .content-column-1 {
+    width: 162px
+  }
+  
+  .content-column-2 {
+    width: 400px;
+  }
+  
+  .contentpage-title {
+    font-size: 17px;
+    font-family: 'Akzidenz Grotesk BE';
+    margin-left: 25px;
+    font-weight: 800 !important;
+  
+  }
+  
+  .content-section {
+    display: flex;
+    margin-bottom: 22.5px;
+  }
+  
+  .content-section-number{
+    font-size: 12px;
+    font-family: 'Akzidenz Grotesk BE';
+    margin-right: 25px;
+  }
+  
+  .content-section-title {
+    font-size: 12px;
+    font-family: 'Akzidenz Grotesk BE';
+  }
+  
+  .content-section-subtitle {
+    font-size: 8px;
+    font-family: 'Akzidenz Grotesk BE';
+  }
+  
+  /* End of Table of Contents
+  
+  /* Introduction */
+  
+  .introduction-page {
+    margin-top: 126px;
+  }
+  
+  .introduction-title {
+    font-size: 17px;
+    font-family: 'Akzidenz Grotesk BE';
+    margin-left: 85.5px;
+    margin-bottom: 15px;
+  }
+  
+  .introduction-title p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  
+  /* .k-pdf-export .introduction-title {
+    font-size: 17px;
+    font-family: 'Akzidenz Grotesk BE';
+  
+  } */
+  
+  .introduction-logo {
+    margin-left: 85.5px;
+    margin-bottom: 10px;
+  }
+  .introduction-logo-img {
+    height: 32px;
+    width: auto;
+    margin-right: 32px;
+  }
+  
+  
+  .introduction-section {
+    margin-left: 100px;
+    margin-bottom: 18px;
+    max-width: 396px;
+  }
+  
+  .introduction-section-header {
+    font-size: 10px;
+    font-family: 'Akzidenz Grotesk BE';
+    margin-bottom: 18px !important;
+  }
+  
+  .introduction-section-content {
+    font-size: 8px;
+    font-family: 'Akzidenz Grotesk BE';
+    margin-bottom: 5px;
+    width: 396px;
+  }
+  
+  .introduction-section-content p {
+    margin-top: 0px;
+    margin-bottom: 10px;
+  }
+  
+  .introduction-content-columns {
+    display: flex;
+    margin-bottom: 15px;
+  }
+  
+  .introduction-content-column-one {
+    min-width: 180.5px;
+    padding-right: 20px;
+    display: table-cell;
+    vertical-align: middle;
+  
+  }
+  
+  .introduction-content-column-one-item {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .introduction-content-column-two {
+    width: 300px;
+  }
+  
+  .introduction-content-column-two-item {
+    display: flex;
+    margin-bottom: 13px;
+  }
+  
+  .introduction-content-arrow {
+    margin-right: 5px;
+  }
+  
+  .introduction-content-arrow-group {
+    vertical-align: top;
+  }
+  
+  .introduction-content-arrow img {
+    height: 9px;
+  }
+  
+  .introduction-content-arrow-header {
+    font-size: 12px;
+    font-family: 'Akzidenz Grotesk BE';
+    font-weight: 500;
+  }
+  
+  .introduction-content-arrow-text {
+    font-size: 10px;
+    font-family: 'Akzidenz Grotesk BE';
+  }
+  
+  .introduction-section-content-bottom {
+    font-size: 10px;
+    font-family: 'Akzidenz Grotesk BE';
+    color: #34699d
+  }
+  
+  .introduction-pc-img {
+    margin-top: 0px;
+  }
+  
+  .introduction-pc-img img {
+    width: 216px;
+  }
+  
+  .introduction-walking {
+    display: flex;
+    margin-bottom: 15px;
+    margin-top: 25px;
+  }
+  
+  .introduction-walking-column-one {
+    padding-right: 10px;
+  }
+  
+  .introduction-walking-column-one img {
+    height: 90px;
+  }
+  
+  .introduction-walking-column-two {
+    flex-direction: column;
+    align-self: flex-end;
+    width: 300px;
+    font-family: 'Akzidenz Grotesk BE';
+    font-style: italic;
+    font-size: 10px;
+  }
+  
+  .introduction-list {
+    margin-top: 8px;
+  }
+  
+  .introduction-list-title {
+    text-decoration: underline;
+    font-size: 8px;
+    font-weight: 500;
+  }
+  
+  .introduction-list-items {
+    font-size: 8px;
+  }
+  
+  /* .k-pdf-export .introduction-list-items {
+    font-size: 8px;
+  } */
+  
+  .introduction-list-item {
+    font-family: 'Akzidenz Grotesk BE';
+    font-size: 8px;
+    padding-top: 5px;
+  }
+  
+  /* .k-pdf-export .introduction-list-item {
+    font-family: 'Akzidenz Grotesk BE';
+    font-size: 8px;
+    padding-top: 5px;
+  } */
+  
+  /*  Chapter Separator  */
+  
+  .first-page, .executive, .discover, .dream, .direction, .final {
+    height: 11in;
+    width: 8.5in;
+    position: relative;
+    /* margin-bottom: 2px;   */
+  }
+  
+  .chapter-page {
+    text-align: center;
+    /* max-width: 450px; */
+  }
+  
+  /* .k-pdf-export .chapter-page {
+    text-align: center;
+    max-width: 100%;
+  } */
+  
+  .chapter-content {
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin-top: 306px;
+    text-align: center;
+    /* margin-left: auto;
+    min-width: 100%; */
+  }
+  
+  .chapter-title {
+    font-size: 33px;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  
+  .chapter-subtitle {
+    padding-top: 4px;
+    color: #fff;
+    font-size: 19px;
+    font-weight: 500;
+    color: #fff;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  
+  /*  End of Chapter Separator  */
+  
+  /* Executive Summary */
+  
+  .executive-page {
+    margin-top: 126px;
+    margin-left: 108px;
+    margin-right: 108px;
+  }
+  
+  .executive-page-title {
+    margin-top: 25px;
+    font-size: 12px;
+    font-family: 'Akzidenz Grotesk BE';
+    font-weight: 800;
+  }
+  
+  .executive-content {
+    margin-top: 15px;
+    font-size: 8px;
+    font-family: 'Akzidenz Grotesk BE';
+  }
+  
+  .executive-priority-header {
+    margin-top: 15px;
+    font-size: 10px;
+    font-family: 'Akzidenz Grotesk BE';
+  }
+  
+  .executive-priority-list {
+    margin-top: 0px;
+  }
+  
+  .executive-priority-list-title {
+    text-decoration: underline;
+    font-size: 8px;
+    font-weight: 500;
+  }
+  
+  .executive-priority-list-items {
+    font-size: 8px;
+  }
+  
+  .executive-priority-list-item {
+    font-family: 'Akzidenz Grotesk BE';
+    font-size: 8px;
+  }
+  
+  /* End of Executive Summary */
+  
+  /* Discover Intro  */
+  
+  .discover-page {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 72px;
+  }
+  
+  .discover-logo {
+    width: 45px;
+  }
+  
+  .discover-page-title {
+    font-size: 12px;
+    font-family: 'Akzidenz Grotesk BE';
+  }
+  
+  .discover-page-subtitle {
+    margin-top: 15px;
+    font-size: 10px;
+    font-family: 'Akzidenz Grotesk BE';
+  }
+  
+  .discover-content-right {
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  .discover-image {
+    width: 198px;
+  }
+  
+  /* .k-pdf-export .discover-image {
+    height: 150px;
+    width: auto;
+  } */
+  
+  .discover-content-right-title {
+    align-self: flex-start;
+    font-size: 10px;
+    font-family: 'Akzidenz Grotesk BE';
+    color: #34699d;
+  }
+  
+  .discover-content {
+    margin-top: 15px;
+    font-size: 8px;
+    font-family: 'Akzidenz Grotesk BE';
+  }
+  
+  /* End of Discover Intro  */
+  
+  /* Dream Intro */
+  
+  .dream-page {
+    margin-left: 108px;
+    margin-right: 108px;
+    margin-top: 72px;
+  }
+  
+  .dream-logo {
+    width: 45px;
+  }
+  
+  .dream-page-title {
+    font-size: 12px;
+    font-family: 'Akzidenz Grotesk BE';
+  }
+  
+  .dream-page-subtitle {
+    margin-top: 15px;
+    font-size: 10px;
+    font-family: 'Akzidenz Grotesk BE';
+  }
+  
+  .dream-content {
+    margin-top: 10px;
+    font-size: 8px;
+    font-family: 'Akzidenz Grotesk BE';
+  }
+  
+  .dream-image {
+    padding: 1px;
+    border: thin solid #7acaca;
+    width: 67.5px;
+  }
+  
+  .dream-list {
+    margin-top: 0px;
+  }
+  
+  .dream-list-title {
+    text-decoration: underline;
+    font-size: 8px;
+    font-weight: 500;
+  }
+  
+  .dream-list-items {
+    font-size: 18px;
+  }
+  
+  .dream-list-item {
+    font-family: 'Akzidenz Grotesk BE';
+    font-size: 8px;
+    padding-top: 5px;
+  }
+  
+  /* End of Dream Intro */
+  
+  /* Direction Intro */
+  
+  .direction-page {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 72px;
+  }
+  
+  .direction-logo {
+    width: 45px;
+  }
+  
+  .direction-page-title {
+    font-size: 12px;
+    font-family: 'Akzidenz Grotesk BE';
+  }
+  
+  .direction-page-subtitle {
+    margin-top: 15px;
+    font-size: 10px;
+    font-family: 'Akzidenz Grotesk BE';
+  }
+  
+  
+  .direction-content {
+    margin-top: 15px;
+    font-size: 8px;
+    font-family: 'Akzidenz Grotesk BE';
+  }
+  
+  .direction-content-right {
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  
+  .direction-image {
+    height: auto;
+    width: 200px;
+  }
+  
+  /* .k-pdf-export .direction-image {
+    height: 150px;
+    width: auto;
+  } */
+  
+  /* End of Direction Intro */
+  
+  /* Final Thougts */
+  
+  .final-page {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 72px;
+  }
+  
+  .final-logo {
+    width: 45px;
+  }
+  
+  .final-page-title {
+    font-size: 12px;
+    font-family: 'Akzidenz Grotesk BE';
+  }
+  
+  .final-content {
+    margin-top: 15px;
+    font-size: 10px;
+    font-family: 'Akzidenz Grotesk BE';
+  }
+  
+  .final-content-large {
+    margin-top: 15px;
+    font-size: 8px;
+    font-family: 'Akzidenz Grotesk BE';
+    color: #34699d;
+  }
+  
+  .final-image-container {
+    text-align: center;
+    margin-top: 25px;
+  }
+  
+  .final-image {
+    padding: 1px;
+    border: .5px solid #7acaca;
+    width: 100%;
+  }
+  
+  .reportPages {
+    margin-top: 36px;
+    margin-left: 54px;
+    margin-right: 71px;
+  }
+  
+  .reportPages-tree {
+    margin-top: 36px;
+    margin-left: 54px;
+    margin-right: 36px;
+  }
+  
+  .reportPagesWide {
+    margin-top: 36px;
+    margin-left: 30px;
+    margin-right: 10px;
+  }

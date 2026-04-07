@@ -1,0 +1,75 @@
+@import 'public/styles/colors';
+
+.header_bg {
+  background: url('../../../../../../public/images/backgrounds/family_meadow.jpg') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 31px -20px 25px 33px;
+  padding: 20px;
+  height: 85%;
+  width: 80%;
+}
+
+.avatar {
+  width: 4rem !important;
+  height: 4rem !important;
+}
+
+.filter_header {
+  font-size: 1.1rem;
+}
+
+.filter {
+  margin-bottom: 10px;
+}
+
+.toolbar {
+  padding: 35px;
+}
+
+.fixed_toolbar_button {
+  min-width: 150px !important;
+  background: $color-brand-orange !important;
+  color: $color-white !important;
+}
+
+.fixed_toolbar_button_caption {
+  font-size: 0.7rem;
+  text-align: center !important;
+  margin-top: 10px !important;
+}
+
+.timing_wrapper {
+  
+  span {
+
+    @media only screen and (max-width: 1500px) {
+      font-size: 80%; 
+    } 
+
+    @media only screen and (max-width: 1065px) {
+      font-size: 70%; 
+    }
+
+  } 
+
+  button {
+    span {
+      @media only screen and (max-width: 1220px) {
+        font-size: 70%; 
+      } 
+
+      @media only screen and (max-width: 1065px) {
+        font-size: 60%; 
+      }
+
+      @media only screen and (max-width: 1045px) {
+        font-size: 50%; 
+      }
+
+    }
+  }
+
+}

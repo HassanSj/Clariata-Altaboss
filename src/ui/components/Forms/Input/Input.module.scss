@@ -1,0 +1,66 @@
+@import '../../../../../public/styles/colors.scss';
+
+.control {
+  width: 100%;
+}
+
+.input {
+  padding: 10px 15px;
+  width: 100%;
+
+  &.white {
+    background: #ffffff !important;
+  }
+}
+
+.input input[type="date"]:before {
+  content: attr(placeholder) !important;
+  color: #aaa;
+  margin-right: 0.5em;
+}
+.input input[type="date"]:focus:before,
+.input input[type="date"]:valid:before {
+  content: "";
+}
+
+.select_label {
+  background: #fff !important;
+}
+
+.textarea {
+  font-family: 'Work Sans', sans-serif !important;
+  font-size: 1rem !important;
+  padding: 10px !important;
+  padding-top: 25px !important;
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.23);
+  min-height: 100px !important;
+}
+
+.textarea_label {
+  left: 12px !important;
+  top: 8px !important;
+  transform: translate(12px, 10px) scale(0.75);
+}
+
+.input_bg {
+  transition: background-color 200ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;
+  background-color: rgba(0, 0, 0, 0.05);
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.required {
+  color: $color-red !important;
+  font-size: 0.8rem !important;
+  // box-shadow: 0px 0px 0px 1px red;
+}
+
+.input_error {
+  color: $color-red !important;
+}
+
+.input_error_outline {
+  box-shadow: 0px 0px 0px 2px $color-red;
+  border-radius: 4px;
+}

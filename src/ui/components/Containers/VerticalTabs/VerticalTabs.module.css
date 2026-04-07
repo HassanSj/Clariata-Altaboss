@@ -1,0 +1,56 @@
+.tabs_wrapper {
+  border-bottom: 10px solid #fafafa;
+  margin-bottom: 10px;
+  margin-top: 0px;
+}
+
+.tabs {
+  min-width: 200px;
+}
+
+.tab {
+  background: #fafafa !important;
+}
+
+.tab > span {
+  display: inline-block;
+  align-items: flex-start !important;
+  white-space: nowrap !important;
+  text-align: left;
+  min-width: 180px;
+}
+
+.tab_icon {
+  margin-right: 10px;
+}
+
+.tab_panel {
+  flex-grow: 1;
+}
+
+.tab_count {
+  float: right !important;
+}
+
+.tab_navigation {
+  display: flex;
+  background: #fafafa;
+  padding: 5px 10px;
+  margin-top: 10px;
+}
+
+.tab_selected {
+  color: #e67e22 !important;
+  background: rgba(230, 126, 34, 0.2) !important;
+  font-weight: bold !important;
+}
+
+.previous_icon {
+  margin-right: 10px !important;
+}
+
+.next_icon {
+  margin-left: 10px !important;
+}
+
+/*# sourceMappingURL=VerticalTabs.module.css.map */

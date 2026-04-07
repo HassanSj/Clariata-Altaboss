@@ -1,0 +1,16 @@
+.SmallButton {
+  min-width: 0 !important;
+  text-transform: initial !important;
+  font-weight: bold !important;
+}
+
+.AlternateListItem {
+  &:not(:last-child) {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+  }
+
+  .Text {
+    font-size: 12px !important;
+    color: rgba(0, 0, 0, 0.54);
+  }
+}

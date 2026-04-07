@@ -1,0 +1,18 @@
+.contentLayout {
+  padding: 8px;
+  background-color: #f2f3f6;
+}
+
+@media only screen and (min-width: 768px) {
+  .contentLayout {
+    padding: 25px;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .contentLayout {
+    padding: 40px 36px 38px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

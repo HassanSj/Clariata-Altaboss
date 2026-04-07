@@ -1,0 +1,6 @@
+@font-face {
+    font-family: 'Akzidenz-Grotesk';
+    font-style: normal;
+    font-weight: 300;
+    src: local("Akzidenz-Grotesk"), url(./AkzidGroBQEx.otf) format('opentype');
+}

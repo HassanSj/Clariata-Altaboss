@@ -1,0 +1,23 @@
+.input {
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+}
+
+.input_left {
+  padding-right: 10px;
+}
+
+.input_right {
+  padding-left: 10px;
+}
+.input_right > div {
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+}
+
+.required {
+  color: #e74c3c !important;
+  font-size: 0.8rem !important;
+}
+
+/*# sourceMappingURL=SelectDate.module.css.map */

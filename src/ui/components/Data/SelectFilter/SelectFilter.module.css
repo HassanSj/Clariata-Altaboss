@@ -1,0 +1,16 @@
+.selected {
+  background: #f9f9f9 !important;
+  padding: 5px;
+  line-height: 35px;
+}
+
+.popup {
+  padding: 15px;
+}
+
+.chip {
+  background: #183f69;
+  color: #fff;
+}
+
+/*# sourceMappingURL=SelectFilter.module.css.map */

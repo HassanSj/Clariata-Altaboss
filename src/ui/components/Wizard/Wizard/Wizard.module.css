@@ -1,0 +1,62 @@
+@charset "UTF-8";
+.wizard_container {
+  display: flex;
+  flex-direction: row;
+  background: transparent !important;
+}
+
+.wizard_center {
+  display: flex;
+  justify-content: center;
+  flex: 0 1 auto;
+}
+
+.wizard_nav {
+  padding-left: 15px !important;
+  margin: 0px;
+}
+
+.wizard_nav_stepper {
+  background: transparent !important;
+}
+
+.wizard_nav_stepper_label {
+  font-size: 1rem;
+}
+
+.wizard_nav_vertical_step {
+  width: 100%;
+}
+
+.wizard_nav_step {
+  border-left: 6px solid transparent !important;
+  border-right: 6px solid transparent !important;
+}
+
+.wizard_nav_step_active {
+  background-color: rgba(242, 90, 42, 0.1) !important;
+  border-color: #f25a2a !important;
+}
+
+.wizard_nav_step_active:after {
+  font-family: "Material Icons";
+  content: "";
+  position: absolute;
+  right: -28px;
+  font-size: 2.5rem;
+  color: #f25a2a !important;
+}
+
+.wizard_nav_step_active_avatar {
+  background-color: #f25a2a !important;
+}
+
+.wizard_nav_step_invalid_avatar {
+  background-color: #e74c3c !important;
+}
+
+.wizard_step:hover {
+  cursor: pointer !important;
+}
+
+/*# sourceMappingURL=Wizard.module.css.map */

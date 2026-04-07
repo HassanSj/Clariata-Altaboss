@@ -1,0 +1,9 @@
+.drag-over {
+  border: 5px solid #f25a2a !important;
+}
+
+.box {
+  box-sizing: border-box;
+}
+
+/*# sourceMappingURL=ActionItemDropTarget.module.css.map */

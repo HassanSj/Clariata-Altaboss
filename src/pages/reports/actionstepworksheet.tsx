@@ -1,0 +1,27 @@
+import React from 'react';
+import DashboardWrapper from '~/ui/components/Dashboard/DashboardWrapper';
+import { Grid } from '@material-ui/core';
+import { NavigationTab } from '~/ui/constants/navigations';
+import ActionStepWorksheet from '~/ui/components/Reports/ActionStepWorksheet/ActionStepWorksheet';
+import { useStoreState } from 'easy-peasy';
+
+const ActionStepWorksheets = () => {
+  const { selectedHousehold } = useStoreState(state => state.household);
+  const { persons } = useStoreState(state => state.person);
+  const { dreamInterviewId } = useStoreState(state => state.selected);
+
+  return (
+    <>
+      <DashboardWrapper tab={NavigationTab.REPORTS}>
+        <Grid container spacing={1}>
+          <Grid xs={3}></Grid>
+          <Grid item xs={6}>
+            <ActionStepWorksheet household={selectedHousehold} persons={persons} dreamInterviewId={dreamInterviewId} />
+          </Grid>
+        </Grid>
+      </DashboardWrapper>
+    </>
+  );
+};
+
+export default ActionStepWorksheets;

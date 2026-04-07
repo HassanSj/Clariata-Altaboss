@@ -1,0 +1,34 @@
+.avatar {
+  width: 4rem !important;
+  height: 4rem !important;
+}
+
+.avatar-big {
+  width: 6rem !important;
+  height: 6rem !important;
+}
+
+.media {
+  height: 0;
+  padding-top: 100%;
+  cursor: pointer;
+}
+
+.list_item {
+  font-size: 0.9rem;
+}
+
+.address_label {
+  color: rgba(0, 0, 0, 0.54);
+  font-size: 0.875rem;
+}
+
+.header-actions {
+  text-align: right;
+}
+
+.relationship_avatar {
+  margin-right: 15px;
+}
+
+/*# sourceMappingURL=ContactCard.module.css.map */

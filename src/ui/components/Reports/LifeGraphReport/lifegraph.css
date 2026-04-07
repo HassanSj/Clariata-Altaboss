@@ -1,0 +1,83 @@
+.lifegraph-grid {
+    font-size: 8px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 35px;
+}
+
+.lifegraph-three-charts-legend {
+    text-align:center;
+    padding: 30px 0px;
+    width: 400px;
+    margin-left: 54px;
+}
+
+.lifegraph-three-chart-item {
+    text-transform:uppercase;
+    font-size: 9px;
+    font-weight:bold;
+    display:inline-block;
+    text-align:left;
+    margin:0px 10px;
+    font-smooth: always;
+}
+
+.lifegraph-three-chart-item span {
+    display:inline-block;
+    width: 18px;
+    height: 18px;
+    vertical-align:middle;
+    margin-right:4px;
+}
+
+.k-pdf-export .lifegraph-three-chart-item span {
+    display:inline-block;
+    width:22px;
+    height:22px;
+    vertical-align:middle;
+    margin-right:4px;
+}
+
+.lifegraph-three-charts {
+    text-align:center;
+}
+
+.k-pdf-export .lifegraph-three-charts {
+    text-align:center;
+}
+
+.lifegraph-three-charts img {
+    max-width:100%;
+    height:auto!important;
+}
+
+.lifegraph-three-chart-0 {
+    max-width:50%;
+    margin:0px auto;
+}
+
+.lifegraph-three-chart-1 {
+    width:50%;
+    float:left;
+    padding:30px 50px;
+    padding:20px 15px 10px 50px;
+}
+
+.lifegraph-three-chart-2 {
+    width:50%;
+    float:left;
+    padding:30px 50px;
+    padding:20px 50px 10px 15px;
+}
+
+.k-pdf-export .lifegraph-three-chart-1 {
+    width: 175px;
+    float:left;
+    padding:20px 15px 10px 50px;
+}
+
+.k-pdf-export .lifegraph-three-chart-2 {
+    width: 175px;
+    float:left;
+    padding:20px 50px 10px 15px;
+}

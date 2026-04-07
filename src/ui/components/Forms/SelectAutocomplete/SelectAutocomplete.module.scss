@@ -1,0 +1,8 @@
+@import '../../../../../public/styles/colors.scss';
+
+.control {
+  transition: background-color 200ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;
+  background-color: rgba(0, 0, 0, 0.09);
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}

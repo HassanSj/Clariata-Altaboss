@@ -1,0 +1,10 @@
+.actionItemWrapper {
+  white-space: normal;
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.itemWrapper {
+  margin: 10px;
+}

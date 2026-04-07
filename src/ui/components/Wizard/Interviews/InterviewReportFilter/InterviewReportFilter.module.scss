@@ -1,0 +1,23 @@
+@import '../../../../../../public/styles/colors.scss';
+
+.headerWrapper {
+    .reportsWrapper {
+        border-left: 2px solid $color-brand-light-blue;
+    }
+}
+
+.reportsWrapper {
+    height: 100%;
+
+    .reports {
+      padding: 40px 20px;
+      padding-right: 0px;
+
+      .top {
+
+      }
+      .bottom {
+
+      }
+    }
+  }

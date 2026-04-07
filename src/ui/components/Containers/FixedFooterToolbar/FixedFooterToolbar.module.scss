@@ -1,0 +1,10 @@
+@import '../../../../../public/styles/colors.scss';
+
+.fixed_toolbar {
+  position: fixed !important;
+  bottom: 0 !important;
+  left: 0 !important;
+  width: 100%;
+  padding: 20px 10px;
+  background: $color-white !important;
+}

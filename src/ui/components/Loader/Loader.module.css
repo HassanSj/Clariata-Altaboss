@@ -1,0 +1,10 @@
+.loader {
+  position: fixed !important;
+  height: 100%;
+  width: 100%;
+  top: 0 !important;
+  left: 0 !important;
+  z-index: 9999 !important;
+}
+
+/*# sourceMappingURL=Loader.module.css.map */

@@ -1,0 +1,50 @@
+.info.outlined {
+  border-color: #c9e6e9 !important;
+  color: #000 !important;
+}
+.info.contained {
+  background-color: #c9e6e9 !important;
+  color: #000 !important;
+}
+.info.text {
+  color: #c9e6e9 !important;
+}
+
+.warning.outlined {
+  border-color: #f25a2a !important;
+  color: #f25a2a !important;
+}
+.warning.contained {
+  background-color: #f25a2a !important;
+  color: #fff !important;
+}
+.warning.text {
+  color: #f25a2a !important;
+}
+
+.error.outlined {
+  border-color: #e74c3c !important;
+  color: #e74c3c !important;
+}
+.error.contained {
+  background-color: #e74c3c !important;
+  color: #fff !important;
+}
+.error.text {
+  color: #e74c3c !important;
+}
+
+.success.outlined {
+  border-color: #659a41 !important;
+  color: #659a41 !important;
+  color: #fff !important;
+}
+.success.contained {
+  background-color: #659a41 !important;
+  color: #fff !important;
+}
+.success.text {
+  color: #659a41 !important;
+}
+
+/*# sourceMappingURL=Button.module.css.map */

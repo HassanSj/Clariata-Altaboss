@@ -1,0 +1,22 @@
+@import 'public/styles/colors';
+
+.header_bg {
+  background: url('../../../../public/images/backgrounds/fishing.jpg') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-top: 45px;
+  margin-left: 34px;
+  margin-right: -20px;
+  margin-bottom: 83px;
+  padding: 20px;
+  height: 80%;
+  width: 85%;
+  min-height: 191px;
+}
+
+.text_wrapper {
+  margin-left: 56px;
+  margin-top: 44px
+}

@@ -1,0 +1,11 @@
+.wrapper {
+  margin-top: 30px;
+}
+
+.scrollable-wrapper-parent {
+  overflow-x: scroll;
+}
+
+.scrollable-wrapper {
+  width: 400%;
+}

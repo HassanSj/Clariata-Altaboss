@@ -1,0 +1,109 @@
+@import '../../../../../public/styles/colors.scss';
+
+.wizard_container {
+  display: flex;
+  flex-direction: row;
+  background: transparent !important;
+}
+
+.wizard_center {
+  display: flex;
+  justify-content: center;
+  flex: 0 1 auto;
+}
+
+.wizard_nav {
+  padding-left: 15px !important;
+  margin: 0px;
+}
+
+.wizard_nav_stepper {
+  background: transparent !important;
+}
+
+.wizard_nav_stepper_label {
+  font-size: 1rem;
+}
+
+.wizard_nav_vertical_step {
+  width: 100%;
+}
+
+.wizard_nav_step {
+  border-left: 6px solid transparent !important;
+  border-right: 6px solid transparent !important;
+}
+
+.wizard_nav_step_active {
+  background-color: $color-brand-orange-transparent !important;
+  border-color: $color-brand-orange !important;
+}
+
+.wizard_nav_step_active:after {
+  font-family: "Material Icons";
+  content: "\e5df";
+  position: absolute;
+  right: -28px;
+  font-size: 2.5rem;
+  color: $color-brand-orange !important;
+}
+
+.wizard_nav_step_active_avatar {
+  background-color: $color-brand-orange !important;
+}
+
+.wizard_nav_step_invalid {
+
+}
+
+.wizard_nav_step_invalid_avatar {
+  background-color: $color-red !important;
+}
+
+.wizard_nav_step_inprogress {
+
+}
+
+.wizard_nav_step_inprogress_avatar {
+
+}
+
+.wizard_nav_step_inprogress_indicator {
+
+}
+
+.wizard_nav_step_inprogress_indicator_label {
+
+}
+
+.wizard_nav_step_completed {
+
+}
+
+.wizard_nav_step_completed_avatar {
+
+}
+
+.wizard_step:hover {
+  cursor: pointer !important;
+}
+
+.question-directions_title {
+
+}
+.question_directions {
+
+}
+.question_title {
+
+}
+.question_content {
+
+}
+.question_hint {
+
+}
+.question_actions {
+
+}
+

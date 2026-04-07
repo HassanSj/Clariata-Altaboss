@@ -1,0 +1,23 @@
+.container {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.breadcrumbs {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.breadcrumb {
+  font-size: 0.8rem;
+}
+
+.household_name {
+  font-size: 1rem;
+}
+
+.back_icon {
+  margin-right: 10px !important;
+}
+
+/*# sourceMappingURL=NavBreadcrumbs.module.css.map */

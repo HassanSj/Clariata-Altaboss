@@ -1,0 +1,103 @@
+.household_name:hover {
+  cursor: pointer;
+}
+
+.household_person {
+  margin-right: 10px !important;
+}
+
+.household {
+  background-color: #fafafa !important;
+}
+
+.selected {
+  background-color: #E6F1F2 !important;
+}
+
+.header {
+  padding-bottom: 15px;
+  border-bottom: 2px solid #c9e6e9;
+}
+.header .titleWrapper {
+  display: flex;
+}
+.header .titleWrapper .title {
+  display: flex;
+  align-items: center;
+  margin: 0px;
+  font-weight: normal;
+}
+
+.right_actions .top {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+.right_actions .bottom {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.right_actions:hover {
+  cursor: pointer;
+}
+
+.avatar {
+  width: 4rem !important;
+  height: 4rem !important;
+  border-radius: 0px !important;
+}
+
+.relationship_avatar {
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.relationship_avatars {
+  display: inline-flex;
+  margin-right: 15px;
+}
+
+.margin_right {
+  margin-right: 15px;
+}
+
+.persons {
+  margin-top: 5px;
+}
+
+.module_badges {
+  white-space: nowrap;
+}
+.module_badges img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 5px;
+}
+.module_badges > span {
+  width: 50px;
+  height: auto;
+  margin: 0px 5px;
+}
+.module_badges span span {
+  display: block;
+  font-size: 11px;
+  font-family: "Work Sans", sans-serif;
+  text-align: center;
+}
+
+.dashboard_family_title {
+  line-height: 1.9 !important;
+}
+.dashboard_family_title button {
+  margin-left: 10px;
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
+
+.familyDetailsButton {
+  background-color: #fff !important;
+}
+
+/*# sourceMappingURL=SelectHousehold.module.css.map */

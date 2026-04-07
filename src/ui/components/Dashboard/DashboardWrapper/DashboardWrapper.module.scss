@@ -1,0 +1,74 @@
+@import '../../../../../public/styles/colors.scss';
+
+.title {
+  margin-bottom: 15px;
+}
+
+.header_background {
+  display: block;
+  background: $color-light-gray;
+  margin-left: -25px;
+  margin-right: -25px;
+  margin-top: -25px;
+}
+
+.header {
+  /* background: url('../../../../../public/images/backgrounds/family.jpg') no-repeat center center; */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-top: -20px;
+  margin-left: -20px;
+  margin-right: -20px;
+  padding: 20px;
+  min-height: 280px;
+}
+
+.footer {
+  padding-top: 15px;
+  margin-bottom: -25px;
+}
+
+.content_wrapper {
+  margin-top: -370px;
+}
+
+.household_image {
+  height: 300px;
+  margin-top: 8px;
+  cursor: pointer;
+}
+
+.list_item {
+  font-size: 0.9rem;
+}
+
+.contact_name {
+  font-size: 1.8rem;
+}
+
+.address_label {
+  color: rgba(0, 0, 0, 0.54);
+  font-size: 0.875rem;
+}
+
+.household_details {
+  width: 100%;
+  display: flex;
+  position: relative;
+  box-sizing: border-box;
+  text-align: left;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  justify-content: flex-end;
+  text-decoration: none;
+}
+
+.household_detail {
+  margin-bottom: 15px;
+}
+
+.household_persons {
+  min-width: 500px;
+}

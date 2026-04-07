@@ -1,0 +1,58 @@
+@import '../../../../public/styles/colors.scss';
+
+.info {
+  &.outlined {
+    border-color: $color-info !important;
+    color: #000 !important;
+  }
+  &.contained {
+    background-color: $color-info !important;
+    color: #000 !important;
+  }
+  &.text {
+    color: $color-info !important;
+  }
+}
+
+.warning {
+  &.outlined {
+    border-color: $color-brand-orange !important;
+    color: $color-brand-orange !important;
+  }
+  &.contained {
+    background-color: $color-brand-orange !important;
+    color: #fff !important;
+  }
+  &.text {
+    color: $color-brand-orange !important;
+  }
+}
+
+.error {
+  &.outlined {
+    border-color: $color-error !important;
+    color: $color-error !important;
+  }
+  &.contained {
+    background-color: $color-error !important;
+    color: #fff !important;
+  }
+  &.text {
+    color: $color-error !important;
+  }
+}
+
+.success {
+  &.outlined {
+    border-color: $color-success !important;
+    color: $color-success !important;
+    color: #fff !important;
+  }
+  &.contained {
+    background-color: $color-success !important;
+    color: #fff !important;
+  }
+  &.text {
+    color: $color-success !important;
+  }
+}

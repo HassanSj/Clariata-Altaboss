@@ -1,0 +1,135 @@
+.vmv-table {
+    border-collapse: collapse;
+    margin-top: 18px;
+    margin-left: 18px;
+}
+
+.vmv-section-title {
+    background-color: #f0f9f7;
+    padding: 5px 10px;
+    border: .5px solid #72c6c7;
+    font-size: 8.5px !important;
+    text-align: left;
+    font-weight: bold;
+    font-family: 'Akzidenz Grotesk BE';
+}
+
+.vmv-section-title p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.vmv-bcr-bottom {
+    border-left: 1px solid #72c6c7;
+    border-right: 1px solid #72c6c7;
+    border-bottom: 1px solid #72c6c7;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 12px;
+    padding-right: 30px;
+    font-family: 'Akzidenz Grotesk BE';
+    text-align: justify;
+    font-size: 8px !important;
+    /* column-count: 2; */
+    /* column-fill: balance; */
+    /* -webkit-column-count: 2; Chrome, Safari, Opera */
+    /* -moz-column-count: 2; Firefox       */
+  }
+
+  .vmv-bcr-bottom-columns {
+    border-left: 1px solid #72c6c7;
+    border-right: 1px solid #72c6c7;
+    border-bottom: 1px solid #72c6c7;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    column-count: 2;
+    column-gap: 10px;
+    column-fill: balance;
+    /* Chrome, Safari, Opera */
+    -webkit-column-count: 2; 
+    /* Firefox       */
+    -moz-column-count: 2;
+  }
+
+  .vmv-bcr-bottom-columns h3 {
+    margin-top: 0px;
+    color: #72c6c7;
+    font-size: 8px;
+    font-family: 'Akzidenz Grotesk BE';
+    font-weight: 800;
+  }
+
+  .vmv-bcr-bottom-columns p {
+    font-size: 8px;
+    margin-top: 1px;
+    margin-left: 5px;
+    font-family: 'Akzidenz Grotesk BE';
+    text-align: justify;
+  }
+
+  .vmv-bcr-no-bottom {
+    border-left: 1px solid #72c6c7;
+    border-right: 1px solid #72c6c7;
+    padding-top: 18px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: 'Akzidenz Grotesk BE';
+    text-align: justify;
+    font-size: 8px !important;
+  }
+
+  .vmv-bcr-no-bottom-columns {
+    border-left: 1px solid #72c6c7;
+    border-right: 1px solid #72c6c7;
+    padding-top: 18px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    column-count: 2;
+    column-gap: 10px;
+    column-width: 280px;
+    /* column-gap: 10px; */
+  }
+
+
+div.footer {
+    display: block;
+    width: 100%;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 8px;
+    color: #183f69;
+    font-family: 'Akzidenz Grotesk BE';
+  }
+  div.footer-content {
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 15px;
+    font-family: 'Akzidenz Grotesk BE';
+  }
+  div.footer-left {
+    width: 5%;
+    padding: 0;
+    text-align: left;
+    line-height: 20px;
+    font-family: 'Akzidenz Grotesk BE';
+  }
+  div.footer-right {
+    width: 30%;
+    padding: 0;
+    text-align: right;
+    line-height: 20px;
+    font-family: 'Akzidenz Grotesk BE';
+  }
+  div.footer-center {
+    width: 65%;
+    padding: 0;
+    text-align: left;
+    line-height: 20px;
+    vertical-align: middle;
+    font-family: 'Akzidenz Grotesk BE';
+  }

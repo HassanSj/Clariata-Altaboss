@@ -1,0 +1,18 @@
+.root {
+  display: flex;
+  overflow: hidden !important;
+}
+
+.content {
+  flex: 1;
+  height: 100vh;
+  padding-top: 70px;
+  margin-right: -48px;
+}
+
+.content_container {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+/*# sourceMappingURL=PublicLayout.module.css.map */

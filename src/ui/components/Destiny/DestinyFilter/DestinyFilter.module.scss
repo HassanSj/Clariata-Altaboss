@@ -1,0 +1,196 @@
+@import 'public/styles/colors';
+
+
+.textMUI {
+  margin-top: 45px !important;
+  margin-left: 77px !important;
+  background-color: #ffffff;
+  margin-bottom: 180px !important;
+  -moz-box-flex: 0 !important;
+  flex-grow: 0 !important;
+  max-width: 65.333333% !important;
+  flex-basis: 64.333333% !important;
+  max-height: 85px;
+}
+
+.MuiAlert-standardInfo {
+  color: rgb(49, 77, 79) !important;
+  background-color: rgb(255 255 255) !important;
+}
+
+.filterLabel {
+  font-size: 15px;
+  margin-top: 5px !important;
+  margin-bottom: 5px !important;
+  min-width: 100px;
+}
+
+
+.clariataMultiselect .k-ipnut {
+
+  border-width: 0 !important;
+  border-color: #ffffff !important;
+}
+
+.clariataMultiselect {
+  width: 20% !important;
+  margin: 0;
+  margin-left: 10px !important;
+  padding: 13px -1px !important;
+  min-width: 0;
+  height: calc(1.125em + 16px);
+  border-color: black !important;
+  outline: 0;
+  box-sizing: border-box;
+  box-shadow: none;
+  color: inherit;
+  background: none;
+  font: inherit;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: row nowrap;
+      flex-flow: row nowrap;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex: 0 1 auto;
+      flex: 0 1 auto;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-appearance: none;
+}
+
+.k-input {
+
+  padding: 20px !important;
+
+}
+
+
+.k-multiselect .k-loading-hidden, .k-dropdowntree .k-loading-hidden {
+  visibility: hidden;
+}
+
+.k-multiselect .k-multiselect-wrap, .k-dropdowntree .k-multiselect-wrap {
+  padding: 0 24px 0 0;
+  width: 100%;
+  border-width: 1px;
+  border-style: solid;
+  box-sizing: border-box;
+  position: relative;
+  transition: all .1s ease;
+  cursor: text;
+  outline: 0;
+}
+
+.k-multiselect .k-multiselect-wrap .k-input, .k-dropdowntree .k-multiselect-wrap .k-input {
+  float: left;
+}
+
+.k-multiselect .k-multiselect-wrap::before, .k-dropdowntree .k-multiselect-wrap::before {
+  content: "";
+  width: 0;
+  height: calc(1.125em + 16px);
+  float: left;
+}
+
+.k-multiselect .k-multiselect-wrap ul, .k-dropdowntree .k-multiselect-wrap ul {
+  vertical-align: top;
+}
+
+.k-multiselect .k-multiselect-wrap li.k-button, .k-dropdowntree .k-multiselect-wrap li.k-button {
+  float: left;
+}
+
+.k-multiselect .k-multiselect-wrap li .k-icon, .k-dropdowntree .k-multiselect-wrap li .k-icon {
+  cursor: pointer;
+}
+
+.k-multiselect .k-multiselect-wrap .k-button, .k-dropdowntree .k-multiselect-wrap .k-button {
+  min-height: calc(2em + 6px);
+  padding: 2px 8px;
+  margin: 2px 0 0 2px;
+  cursor: default;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-align: center;
+      align-items: center;
+  line-height: inherit;
+  white-space: normal;
+}
+
+.k-multiselect .k-multiselect-wrap .k-button .k-select, .k-dropdowntree .k-multiselect-wrap .k-button .k-select {
+  display: -ms-flexbox;
+  display: flex;
+  cursor: pointer;
+  margin-left: 16px;
+  -ms-flex-item-align: stretch;
+      align-self: stretch;
+}
+
+.k-multiselect .k-multiselect-wrap .k-button:last-child, .k-dropdowntree .k-multiselect-wrap .k-button:last-child {
+  margin-bottom: 2px;
+}
+
+.k-multiselect .k-multiselect-wrap .k-searchbar, .k-dropdowntree .k-multiselect-wrap .k-searchbar {
+  float: left;
+  width: auto;
+}
+
+.k-multiselect .k-multiselect-wrap .k-searchbar .k-input, .k-dropdowntree .k-multiselect-wrap .k-searchbar .k-input {
+  padding-right: 0;
+}
+
+.k-multiselect .k-multiselect-wrap .k-i-loading, .k-dropdowntree .k-multiselect-wrap .k-i-loading {
+  height: 18px;
+  line-height: 18px;
+  position: absolute;
+  top: 8px;
+  right: 4px;
+}
+
+.k-multiselect .k-multiselect-wrap .k-clear-value, .k-dropdowntree .k-multiselect-wrap .k-clear-value {
+  height: 18px;
+  line-height: 18px;
+  outline: 0;
+  cursor: pointer;
+  display: none;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  opacity: .5;
+  position: absolute;
+  top: 8px;
+  right: 4px;
+}
+
+.k-multiselect .k-multiselect-wrap .k-clear-value:hover, .k-dropdowntree .k-multiselect-wrap .k-clear-value:hover {
+  opacity: 1;
+}
+
+.k-multiselect .k-multiselect-wrap:hover .k-clear-value, .k-dropdowntree .k-multiselect-wrap:hover .k-clear-value, .k-multiselect .k-multiselect-wrap.k-state-hover .k-clear-value, .k-dropdowntree .k-multiselect-wrap.k-state-hover .k-clear-value, .k-multiselect .k-multiselect-wrap.k-state-focused .k-clear-value, .k-dropdowntree .k-multiselect-wrap.k-state-focused .k-clear-value {
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.k-multiselect.k-state-hover > .k-multiselect-wrap .k-clear-value, .k-state-hover.k-dropdowntree > .k-multiselect-wrap .k-clear-value, .k-multiselect.k-state-focused > .k-multiselect-wrap .k-clear-value, .k-state-focused.k-dropdowntree > .k-multiselect-wrap .k-clear-value {
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.k-multiselect[dir="rtl"], .k-dropdowntree[dir="rtl"],
+.k-rtl .k-multiselect,
+.k-rtl .k-dropdowntree {
+  text-align: right;
+}
+
+.k-multiselect[dir="rtl"] .k-multiselect-wrap, .k-dropdowntree[dir="rtl"] .k-multiselect-wrap,
+.k-rtl .k-multiselect .k-multiselect-wrap,
+.k-rtl .k-dropdowntree .k-multiselect-wrap {
+  padding-left: 24px;
+  padding-right: 0;
+}

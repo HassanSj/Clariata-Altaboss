@@ -1,0 +1,3 @@
+import InterviewStepQuestionResponseForm from "./InterviewStepQuestionResponseForm";
+
+export default InterviewStepQuestionResponseForm;

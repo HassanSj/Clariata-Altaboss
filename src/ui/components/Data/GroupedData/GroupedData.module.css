@@ -1,0 +1,32 @@
+.groups {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.group {
+  width: 100%;
+  margin-bottom: 3px !important;
+}
+
+.list {
+  width: 100%;
+}
+
+.item_badge {
+  position: absolute;
+  right: 50px;
+}
+
+.group_header {
+  background: #183f69 !important;
+  color: #fff !important;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.group_label {
+  font-weight: bold !important;
+  font-size: 1.2rem !important;
+}
+
+/*# sourceMappingURL=GroupedData.module.css.map */

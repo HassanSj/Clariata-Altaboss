@@ -1,0 +1,16 @@
+@import '../../../../../public/styles/colors.scss';
+
+.item_card {
+  padding: 0px 10px !important;
+  margin-bottom: 10px;
+}
+
+.item_cell {
+  background: $color-light-gray;
+  line-height: 2;
+}
+
+
+.item_content {
+  padding: 0px 10px !important;
+}

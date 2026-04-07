@@ -1,0 +1,10 @@
+@import '../../../../../public/styles/colors.scss';
+
+.input_error {
+  font-weight: bold;
+  color: $color-red;
+}
+
+.form_fieldset {
+  border: none;
+}

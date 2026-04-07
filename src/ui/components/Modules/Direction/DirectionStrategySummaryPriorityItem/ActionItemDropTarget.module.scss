@@ -1,0 +1,9 @@
+@import '../../../../../../public/styles/colors.scss';
+
+.drag-over {
+  border: 5px solid $color-brand-orange !important;
+}
+
+.box {
+  box-sizing: border-box;
+}

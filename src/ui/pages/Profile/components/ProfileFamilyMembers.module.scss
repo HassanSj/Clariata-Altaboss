@@ -1,0 +1,52 @@
+@import "../../../../../public/styles/colors";
+
+$turquoise: #72c6c7;
+
+.AccordionTitle {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.BlueChip {
+  background-color: rgb(207, 229, 232) !important;
+  margin-right: 5px;
+}
+
+.BcrRows {
+  background-color: #fff;
+  padding: 10px 20px;
+  border: 1px solid $turquoise;
+  margin-top: -1px;
+
+  p {
+    margin: 0;
+  }
+}
+
+.BcrTop {
+  border: 1px solid #72c6c7;
+  background-color: #eff8f7;
+  padding: 10px 20px;
+
+  p {
+    text-align: left;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+    margin: 0;
+    background-color: transparent;
+  }
+}
+
+.Turquoise {
+  color: $turquoise;
+}
+
+.PersonContainer {
+  width: 315px;
+  padding: 10px;
+}
+
+.ProfileWrapper {
+  overflow-x: scroll;
+}

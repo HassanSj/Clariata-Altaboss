@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  font-size: 16px;
+  color: #000;
+}
+
+.row {
+  padding: 5px 0;
+}
+
+.btnContainer {
+  padding-top: 10px;
+}
+
+/*# sourceMappingURL=Register.module.css.map */

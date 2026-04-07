@@ -1,0 +1,51 @@
+@import '../../../../../public/styles/colors.scss';
+
+.marriedH {
+  box-sizing: border-box;
+  margin: 0;
+  height: 60px;
+  line-height: 20px;
+  padding: 10px 0;
+
+  p {
+    margin: 0;
+  }
+}
+
+.placeholder {
+  height: 1000px;
+}
+
+.media_container {
+  text-align: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.media {
+  height: 80px;
+  cursor: pointer;
+}
+
+.card {
+  width: 110px !important;
+}
+
+.card_header {
+  padding: 5px;
+  text-align: center;
+  height: 30px !important;
+}
+
+.card_title {
+  font-size: 0.8rem !important;
+  font-weight: bold !important;
+}
+
+.card_description {
+  font-size: 0.6rem !important;
+}
+
+.buttons {
+  opacity: 0.5;
+}

@@ -1,0 +1,15 @@
+.item_card {
+  padding: 0px 10px !important;
+  margin-bottom: 10px;
+}
+
+.item_cell {
+  /* background: #fafafa; */
+  line-height: 2;
+}
+
+.item_content {
+  padding: 0px 10px !important;
+}
+
+/*# sourceMappingURL=ActionItemMilestoneItem.module.css.map */

@@ -1,0 +1,4 @@
+import RecurringActionItemDeleteConfirmationModal
+    from "~/ui/components/Dialogs/RecurringActionItemDeleteConfirmationModal/RecurringActionItemDeleteConfirmationModal";
+
+export default RecurringActionItemDeleteConfirmationModal

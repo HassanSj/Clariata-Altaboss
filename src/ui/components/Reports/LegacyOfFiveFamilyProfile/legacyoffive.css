@@ -1,0 +1,113 @@
+.legacy-profile-top {
+  margin-top: 20px;
+}
+
+.legacy-profile-top img {
+    width: 49px;
+  }
+
+  .ppw-top-legacy {
+    margin-top: 10px;
+    margin-left: 18px;
+}
+
+  .bcr-top-legacy.turquoise {
+    /* margin-top: 0px; */
+    border: .5px solid #72c6c7;
+    background-color: #eff8f7;
+    color: #000000;
+    font-weight: bold;
+    padding-left: 13.5px;
+    margin-top: 10px;
+    font-size: 9px;
+  }
+  
+  .bcr-top-legacy.turquoise p {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  
+  .legacy-header.turquoise {
+    /* margin-top: 0px; */
+    border: .5px solid #72c6c7;
+    background-color: #eff8f7;
+    color: #000000;
+    margin-top: 30px;
+    text-align: center;
+    width: 265.5px;
+    margin:auto;
+    font-size: 9px;
+    height: 18px;
+  }
+
+  .legacy-header.turquoise p {
+    margin-top: 2px;
+    margin-bottom: 0px;
+    vertical-align: middle;
+  }
+  
+  .bcr-rows-legacy {
+    background-color: #fff;
+    padding: 0px 13.5px;
+    border: .5px solid #72c6c7;
+    margin-top: -1px;
+    font-size: 8px !important;
+  }
+  
+  .bcr-rows-legacy p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  
+  .flex-row-legacy {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: flex-start;
+    -webkit-box-align: flex-start;
+    -ms-flex-align: flex-start;
+    align-items: flex-start;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    padding-bottom: 10px;
+  }
+
+  .legacy-flex-row {
+    display: flex;
+    align-items: flex-start;
+    align-content: stretch;
+    flex-direction: row;
+    padding-bottom: 10px;
+  }
+
+  .legacy-flex-column {
+    width: 207px;
+    background: #ffffff !important;
+  }
+
+  .legacy-flex-column:first-child {
+    margin-right: 54px;
+  }
+  
+  .legacy-pad {
+    padding-bottom: 0px;
+  }
+  
+  .three-charts-legend {
+    text-align:center;
+    padding:30px 0px;
+  }
+
+  .legacy-mar-t {
+    margin-top: 0px;
+  }
+  .legacy-mar-b {
+    margin-bottom: 0px;
+  }

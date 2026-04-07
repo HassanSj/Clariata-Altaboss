@@ -1,0 +1,25 @@
+@import '../../../../../public/styles/colors.scss';
+
+.input {
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+}
+
+.input_left {
+  padding-right: 10px;
+}
+
+.input_right {
+  padding-left: 10px;
+
+  > div {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+  }
+}
+
+.required {
+  color: $color-red !important;
+  font-size: 0.8rem !important;
+  // box-shadow: 0px 0px 0px 1px red;
+}

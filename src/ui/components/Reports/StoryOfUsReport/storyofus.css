@@ -1,0 +1,267 @@
+@font-face {
+    font-family: 'Akzidenz Grotesk BE';
+    src: url('~/fonts/AkzidenzGroteskBE/AkzidenzGroteskBE-Regular.woff2') format('woff2'),
+        url('~/fonts/AkzidenzGroteskBE/AkzidenzGroteskBE-Regular.woff') format('woff'),
+        url('~/fonts/AkzidenzGroteskBE/AkzidenzGroteskBE-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Akzidenz Grotesk BE';
+    src: url('~/fonts/AkzidenzGroteskBE/AkzidenzGroteskBE-Light.woff2') format('woff2'),
+        url('~/fonts/AkzidenzGroteskBE/AkzidenzGroteskBE-Light.woff') format('woff'),
+        url('~/fonts/AkzidenzGroteskBE/AkzidenzGroteskBE-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Akzidenz Grotesk BE Super';
+    src: url('~/fonts/AkzidenzGroteskBE/AkzidenzGroteskBE-Super.woff2') format('woff2'),
+        url('~/fonts/AkzidenzGroteskBE/AkzidenzGroteskBE-Super.woff') format('woff'),
+        url('~/fonts/AkzidenzGroteskBE/AkzidenzGroteskBE-Super.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Akzidenz Grotesk BE';
+    src: url('~/fonts/AkzidenzGroteskBE/AkzidenzGroteskBE-LightIt.woff2') format('woff2'),
+        url('~/fonts/AkzidenzGroteskBE/AkzidenzGroteskBE-LightIt.woff') format('woff'),
+        url('~/fonts/AkzidenzGroteskBE/AkzidenzGroteskBE-LightIt.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Akzidenz Grotesk BE';
+    src: url('~/fonts/AkzidenzGroteskBE/AkzidenzGroteskBE-BoldIt.woff2') format('woff2'),
+        url('~/fonts/AkzidenzGroteskBE/AkzidenzGroteskBE-BoldIt.woff') format('woff'),
+        url('~/fonts/AkzidenzGroteskBE/AkzidenzGroteskBE-BoldIt.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Akzidenz Grotesk BE';
+    src: url('~/fonts/AkzidenzGroteskBE/AkzidenzGroteskBE-Bold.woff2') format('woff2'),
+        url('~/fonts/AkzidenzGroteskBE/AkzidenzGroteskBE-Bold.woff') format('woff'),
+        url('~/fonts/AkzidenzGroteskBE/AkzidenzGroteskBE-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Akzidenz Grotesk BE Super';
+    src: url('~/fonts/AkzidenzGroteskBE/AkzidenzGroteskBE-SuperItalic.woff2') format('woff2'),
+        url('~/fonts/AkzidenzGroteskBE/AkzidenzGroteskBE-SuperItalic.woff') format('woff'),
+        url('~/fonts/AkzidenzGroteskBE/AkzidenzGroteskBE-SuperItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Akzidenz Grotesk BE';
+    src: url('~/fonts/AkzidenzGroteskBE/AkzidenzGroteskBE-Md.woff2') format('woff2'),
+        url('~/fonts/AkzidenzGroteskBE/AkzidenzGroteskBE-Md.woff') format('woff'),
+        url('~/fonts/AkzidenzGroteskBE/AkzidenzGroteskBE-Md.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Akzidenz Grotesk BE';
+    src: url('~/fonts/AkzidenzGroteskBE/AkzidenzGroteskBE-MdIt.woff2') format('woff2'),
+        url('~/fonts/AkzidenzGroteskBE/AkzidenzGroteskBE-MdIt.woff') format('woff'),
+        url('~/fonts/AkzidenzGroteskBE/AkzidenzGroteskBE-MdIt.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Akzidenz Grotesk BE';
+    src: url('~/fonts/AkzidenzGroteskBE/AkzidenzGroteskBE-It.woff2') format('woff2'),
+        url('~/fonts/AkzidenzGroteskBE/AkzidenzGroteskBE-It.woff') format('woff'),
+        url('~/fonts/AkzidenzGroteskBE/AkzidenzGroteskBE-It.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+.pdf-header-as-table {
+    display: table;
+    width:100%;
+    flex: 1;
+  }
+
+.pdf-header-as-table .h-left {
+    display: table-cell;
+    vertical-align:middle;
+    min-width: 10px;
+}
+
+.h-left {
+    display: inline-block;
+    width: 346px;
+    vertical-align: middle;
+}
+
+.h-left .subTitle {
+    font-size: 12px;
+    color: black;
+    font-weight: 400;
+    margin-left: 23px;
+}
+.h-left img {
+    height: 18px;
+    display: inline-block;
+    vertical-align: middle;
+    width: auto;
+}
+.h-left p {
+    vertical-align: middle;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 0 0 0 5px;
+    color: #1a3f69;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.h-right {
+    display: inline-block;
+    /* width: 290px; */
+    min-width: 40%;
+    vertical-align: middle;
+}
+.hr-wrapper {
+    display: flex;
+    float: right;
+    border: 1px solid #72c6c7;
+    width: 207px;
+    white-space: nowrap;
+}
+
+.hr-wrapper .clearfix{
+    width: auto;
+}
+
+.hr-wrapper img {
+    width: 30px;
+    max-width: 62px;
+    vertical-align: middle;
+    height: auto;
+    float: right;
+    text-align: right;
+}
+
+.hr-wrapper p {
+    width: auto; 
+    vertical-align: middle;
+    font-size: 8.5px;
+    text-align: center;
+    color: #1a3f69;
+    font-weight: 600;
+    width: 158px;
+}
+
+.storyofus-table {
+    border-collapse: collapse;
+    margin-top: 18px;
+    margin-left: 18px;
+}
+
+.storyofus-header {
+    background-color: #f0f9f7;
+    padding-left: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: .5px solid #72c6c7;
+    font-size: 8.5px !important;
+    text-align: left;
+    font-weight: 800;
+}
+
+.storyofus-row {
+    column-count: 2;
+    column-gap: 10px;
+    column-fill: balance;    
+    border-left: 1px solid #72c6c7;
+    border-right: 1px solid #72c6c7;
+    border-bottom: 1px solid #72c6c7;
+    padding: 10px 20px;
+}
+
+.storyofus-row-h3 {
+    color: #72c6c7;
+    text-transform: uppercase;
+    font-size: 8px;
+    line-height: 20px;
+    font-weight: 600;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: 'Akzidenz Grotesk BE' !important;
+}
+
+.storyofus-row-p {
+    font-size: 8px;
+    margin-top: 1px;
+    font-family: 'Akzidenz Grotesk BE';
+    text-align: justify;
+}
+
+.storyofus-bcr-content {
+    break-inside: avoid-page;
+}
+
+div.footer {
+    display: block;
+    width: 100%;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 8px;
+    color: #183f69;
+    font-family: 'Akzidenz Grotesk BE';
+  }
+  div.footer-content {
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 15px;
+    font-family: 'Akzidenz Grotesk BE';
+  }
+  div.footer-left {
+    width: 5%;
+    padding: 0;
+    text-align: left;
+    line-height: 20px;
+    font-family: 'Akzidenz Grotesk BE';
+  }
+  div.footer-right {
+    width: 30%;
+    padding: 0;
+    text-align: right;
+    line-height: 20px;
+    font-family: 'Akzidenz Grotesk BE';
+  }
+  div.footer-center {
+    width: 65%;
+    padding: 0;
+    text-align: left;
+    line-height: 20px;
+    vertical-align: middle;
+    font-family: 'Akzidenz Grotesk BE';
+  }

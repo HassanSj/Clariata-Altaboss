@@ -1,0 +1,3 @@
+import InterviewAdditionalPriorityContent from "./InterviewAdditionalPriorityContent";
+
+export default InterviewAdditionalPriorityContent;

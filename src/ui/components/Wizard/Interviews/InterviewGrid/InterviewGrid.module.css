@@ -1,0 +1,126 @@
+.headerImage.discover {
+  background: url("../../../../../../public/images/backgrounds/family_on_porch.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-top: -20px;
+  margin-left: -20px;
+  margin-right: -20px;
+  margin-bottom: 25px;
+  padding: 20px;
+  min-height: 400px;
+}
+.headerImage.dream {
+  background: url("../../../../../../public/images/backgrounds/architectural_buildings.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-top: -20px;
+  margin-left: -20px;
+  margin-right: -20px;
+  margin-bottom: 25px;
+  padding: 20px;
+  min-height: 400px;
+}
+
+.headerWrapper {
+  padding: 0px 5px;
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+  border-bottom: 2px solid #c9e6e9;
+}
+.headerWrapper .headerContent {
+  padding-right: 20px;
+}
+.headerWrapper .headerContent .family_header {
+  margin-top: 0px;
+  margin-bottom: 15px;
+}
+.headerWrapper .headerContent .last_updated {
+  font-size: 14px;
+  text-align: right;
+  color: #95a5a6;
+}
+.headerWrapper .reportsWrapper {
+  height: 100%;
+  border-left: 2px solid #c9e6e9;
+}
+.headerWrapper .reportsWrapper .reports {
+  padding: 40px 20px;
+  padding-right: 0px;
+}
+.grid_header_icon {
+  margin-right: 10px;
+  padding-top: 5px;
+  opacity: 0.3;
+}
+
+.grid_item {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: 3px solid #F1F1F1 !important;
+  color: #000 !important;
+  text-align: center;
+  background-color: #F1F1F1 !important;
+}
+
+.grid_item:hover {
+  cursor: pointer !important;
+  border-color: #f25a2a !important;
+}
+
+.grid_item_title {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.grid_item_icon_container {
+  margin-right: 15px;
+}
+
+.grid_item_content {
+  padding: 0 !important;
+  min-height: 150px;
+}
+
+.grid_item_count {
+  margin-bottom: 5px;
+}
+
+.grid_item_count_item {
+  background: #183f69 !important;
+  color: #fff !important;
+}
+
+.grid_item_icon {
+  overflow: visible !important;
+  color: #fff !important;
+  opacity: 0.3;
+  margin-right: 10px;
+}
+
+.selected {
+  border-color: #f25a2a !important;
+}
+
+.selected_icon_row {
+  display: flex;
+  min-height: 30px;
+  justify-content: flex-end;
+  margin-top: -15px;
+}
+
+.selected_icon {
+  margin-right: 15px;
+  color: #f25a2a !important;
+}
+
+.back_button {
+  margin-top: 25px !important;
+}
+
+/*# sourceMappingURL=InterviewGrid.module.css.map */

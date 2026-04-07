@@ -1,0 +1,63 @@
+.destiny-item {
+    min-height: 600px;
+    max-width: 98%;
+    margin-left: 60px;
+}
+
+.destiny-header-itemType {
+    margin-top: 15px;
+    margin-left: 10px;
+    font-size: 20px;
+    color: #1a3f69;
+    font-weight: 600;
+    vertical-align: bottom;
+}
+
+.destiny-header {
+    text-transform: uppercase;
+    background-color: #edf9f6;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-color: #73bfba;
+    border-width: 1px;
+    border-style: solid;
+    margin-right: 60px;
+    font-weight: 600;
+}
+
+.destiny-header-title {
+    font-size: 15px;
+    font-weight: 600; 
+}
+
+.destiny-header-subcategory {
+    font-weight: bold;
+    font-size: 14px,
+}
+
+.destiny-link-button {
+    background-color: #1a3f69;
+    color: #ffffff;
+}
+
+.destiny-title {
+    color: #000000;
+    font-weight: 600;
+    font-size: 12px,
+}
+
+.destiny-label {
+    color: #72c6d3;
+    font-weight: 600;
+}
+
+.destiny-text {
+    color: #000000;
+    font-weight: normal;
+    margin-left: 5px;
+}
+
+
+.destiny-image {
+    max-width: 200px;
+}

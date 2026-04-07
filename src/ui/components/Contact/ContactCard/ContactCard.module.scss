@@ -1,0 +1,46 @@
+@import '../../../../../public/styles/colors.scss';
+
+.avatar {
+  width: 4rem !important;
+  height: 4rem !important;
+}
+
+.avatar-big {
+  width: 6rem !important;
+  height: 6rem !important;
+}
+
+.media {
+  height: 0;
+  padding-top: 100%;
+  cursor: pointer;
+}
+
+.list_item {
+  font-size: 0.9rem;
+}
+
+.address_label {
+  color: rgba(0, 0, 0, 0.54);
+  font-size: 0.875rem;
+}
+
+.header-actions {
+  text-align: right;
+}
+
+.relationship_avatar {
+  margin-right: 15px;
+}
+
+.floatingButton2 {
+  margin: 0;
+  top: auto;
+  right: 115px;
+  bottom: 40px;
+  left: auto;
+  position: fixed !important;
+  z-index: 1000;
+  background-color: #e0e0e0 !important;
+  color: #000000 !important;
+}

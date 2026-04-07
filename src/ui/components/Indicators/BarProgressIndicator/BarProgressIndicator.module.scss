@@ -1,0 +1,15 @@
+@import '../../../../../public/styles/colors.scss';
+
+.root {
+  height: 10px !important;
+  borderRadius: 5;
+}
+
+.colorPrimary {
+  background-color: $color-blue;
+}
+
+.bar {
+  border-radius: 5px !important;
+  background-color: '#1a90ff';
+}

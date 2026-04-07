@@ -1,0 +1,32 @@
+.popover_header {
+  padding: 0px 10px !important;
+}
+
+.popover_header_title {
+  font-size: 1rem;
+}
+
+.popover_content {
+  padding: 0px 10px !important;
+  min-width: 350px;
+}
+
+.popover_footer {
+  padding: 0px 10px !important;
+}
+
+.close_icon {
+  display: inline-flex !important;
+  float: right;
+}
+
+.toolbar_container {
+  display: block;
+  padding: 10px 24px;
+  background: #fafafa;
+  margin-bottom: 10px;
+}
+
+.custom_trigger:hover {
+  cursor: pointer !important;
+}

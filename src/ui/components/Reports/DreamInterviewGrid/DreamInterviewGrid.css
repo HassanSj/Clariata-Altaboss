@@ -1,0 +1,91 @@
+
+.dream-interview-grid-table {
+    border: thin solid #72c6c7;
+    border-collapse: collapse;
+    margin-bottom: 50px;
+    font-family: "Akzidenz Grotesk BE";
+}
+
+.k-pdf-export .dream-interview-grid-table {
+    border: thin solid #72c6c7;
+    border-collapse: collapse;
+    margin-bottom: 75px;
+    font-family: "Akzidenz Grotesk BE";
+    margin-top: 25px;
+}
+
+.dream-interview-grid-row {
+    height: 150px;
+}
+
+.k-pdf-export .dream-interview-grid-row {
+    height: 100px;
+}
+
+.dream-interview-grid-column {
+    width: 20%
+}
+
+.dream-interview-grid-cell {
+    width: 20%;
+    border: thin solid #72c6c7;
+    text-align: center;
+    padding: 10px;
+    font-size: 12px;
+}
+
+.k-pdf-export .dream-interview-grid-cell {
+    width: 20%;
+    border: thin solid #72c6c7;
+    text-align: center;
+    padding: 10px;
+    font-size: 8px;
+}
+
+.dream-interview-grid-header-cell {
+    background-color: #eff8f7;
+    padding-top: 20px;
+}
+
+.dream-interview-grid-header-text {
+    font-weight: bold;
+}
+
+.k-pdf-export .dream-interview-grid-header-text {
+    font-weight: bold;
+    font-size: 10px;
+}
+
+.dream-interview-grid-cell-left {
+    background-color: #eff8f7;
+    border: thin solid #72c6c7;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.k-pdf-export .dream-interview-grid-cell-left {
+    background-color: #eff8f7;
+    border: thin solid #72c6c7;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+.dream-interview-grid-cell-title {
+    color: #72c6c7;
+}
+
+.k-pdf-export .dream-interview-grid-cell-title {
+    color: #72c6c7;
+    font-size: 8px;
+}
+
+.dream-interview-grid-cell-text {
+    font-style: italic;
+}
+
+.k-pdf-export .dream-interview-grid-cell-text {
+    font-style: italic;
+}

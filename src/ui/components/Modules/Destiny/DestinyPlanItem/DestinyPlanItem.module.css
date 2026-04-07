@@ -1,0 +1,53 @@
+.DestinyTable {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 89%;
+  }
+  .tableHeader{
+    color: white;
+    background-color: #154067;
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    width: 10%;
+  }
+  .tableHeader2{
+    color: white;
+    background-color: #154067;
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    width: 45%;
+  }
+  .tableHeader3{
+    color: white;
+    background-color: #154067;
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    width: 45%;
+  }
+  .tableData{
+    border: 1px solid #b8dfdc;
+    text-align: left;
+    padding: 8px;
+  }
+  .tableData2{
+    border: 1px solid #b8dfdc;
+    text-align: left;
+    padding: 8px;
+  }
+  .tableRow:nth-child(even) {
+    background-color: #dddddd;
+  }
+.checkbox{
+  height: 23px;
+  width: 23px;
+  appearance: none;
+  border: 4px solid #70c4c6;
+  transition-duration: 0.3s;
+  cursor: pointer;
+  margin-left: 19px;
+  margin-top: 7px;
+}
+ 

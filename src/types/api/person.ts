@@ -1,0 +1,77 @@
+import {Photo} from "./photo";
+import {AddressItem} from "~/types/api/addressItem";
+import {WorkHistoryItem} from "~/types/api/workHistoryItem";
+
+export interface Person {
+  PersonID: number;
+  PersonTypeID?: number;
+  PersonTitleID?:number;
+  PersonTitleFree?:number;
+  PersonStatusID?: number;
+  HouseholdID?: number;
+  Prefix?: string;
+  FirstName?: string;
+  PreferredName?: string;
+  MiddleName?: string;
+  LastName?: string;
+  OriginalSurname?: string;
+  Suffix?: string;
+  DateOfBirth?: string;
+  DateOfBirthString?: string;
+  BirthDateType?: number;
+  Birthplace?: string;
+  Deceased?: boolean;
+  DateOfDeath?: string;
+  DateOfDeathString?: string;
+  DeathLocation?:string;
+  DeathCause?:string;
+  DeathDateType?: number;
+  FamilyTreeOnly?: boolean;
+  EducationListID?: number;
+  WorkHistoryListID?: number;
+  Education?: string;
+  MaritalStatusID?: number;
+  MarriageDate?: string;
+  MarriageDateString?: string;
+  DivorcedDate?:string;
+  DivorcedDateString?:string;
+  SeparatedDate?:string;
+  SeparatedDateString?:string;
+  WidowedDate?:string;
+  WidowedDateString?:string;
+  // Occupation?: string;
+  Company?: string;
+  ReligiousAffiliation?: string;
+  Location?: string;
+  // AddressHome?: string;
+  PhoneHome?: string;
+  PhoneMobile?: string;
+  PhoneWork?: string;
+  EmailAddress?: string;
+  NumberOfChildren?: number;
+  NumberOfOccupants?: number;
+  PhoneNumberListID?: number;
+  AddressListID?: number;
+  CommentSetID?: number;
+  PhotoAlbumID?: number;
+  GUID?: string;
+  IsArchived?: boolean;
+  CreationDate?: Date;
+  CreatedBy?: number;
+  LastModifiedDate?: Date;
+  LastModifiedBy?: number;
+  PhotoURL?: string;
+  GenderID?: number;
+  Hobbies?: string;
+
+  AddressList?:AddressItem[],
+  WorkList?: WorkHistoryItem[],
+  LinkedIn?: string;
+  Facebook?: string;
+  Twitter?: string;
+  Instagram?: string;
+  FullName: string;
+  Initials?: string;
+  Photo?: Photo;
+  Photos?: Photo[];
+}

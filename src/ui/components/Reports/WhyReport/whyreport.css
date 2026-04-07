@@ -1,0 +1,137 @@
+.whyreport-body-copy {
+    margin: 0px 0 10px;
+  }
+
+.whyreport-intro {
+    padding-bottom: 10px;
+    font-size: 8px;
+    line-height: 8px;
+    font-family: 'Akzidenz Grotesk BE';
+}
+
+.whyreport-table {
+    width: 100%;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+}
+
+.whyreport-table td {
+    border: thin solid #72c6c7;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.whyreport-table td:first-child {
+    width: 10%;
+    background-color: #eff8f7;
+    color: #32979d;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: 'Akzidenz Grotesk BE';
+    padding: 15px 15px;
+    text-align: center;
+}
+
+.whyreport-table td:nth-child(2) {
+    width: 90%;
+    padding: 0 15px 0 15px;
+}
+
+.whyreport-dark-turquoise {
+    color: #32979d;
+    font-weight: normal;
+}
+
+.whyreport-orange {
+    color: #d64f23;
+    font-weight: normal;
+}
+
+.whyreport-blue {
+    color: #21466e;
+    font-weight: normal;
+}
+
+.whyreport-priority-container {
+    display: flex;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.whyreport-priority-img {
+    flex-basis: 5%;
+    padding: 6px 10px 0px 0px;
+}
+
+.whyreport-priority-img img {
+    max-width: 30px;
+}
+
+.whyreport-goal {
+    font-size: 9px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: 'Akzidenz Grotesk BE';
+    /* line-height: 24px; */
+}
+  
+.whyreport-goal-desc {
+    font-size: 8px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: 'Akzidenz Grotesk BE';
+    text-align: justify;
+}
+
+.whyreport-short-details {
+    display: table;
+    table-layout: fixed;
+    margin-top: 15px;
+    padding: 0px;
+    float: right;
+  }
+
+  .whyreport-f-col {
+    border: none;
+    width: 100% !important;
+  }
+
+  .whyreport-f-row {
+    width: 100%;
+    display: flex;
+  }
+
+  .whyreport-f-row p {
+    padding: 0 60px 0 10px;
+    font-size: 8px;
+    font-family: 'Akzidenz Grotesk BE';
+  }
+
+  .whyreport-f-row p:last-child {
+    padding: 0 0 0 10px;
+  }
+
+  .whyreport-f-row img {
+    float: left;
+    width: auto;
+    height: 10px;
+  }
+  
+  .whyreport-f-col {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0 10px;
+  }
+
+  .whyreport-f-col p {
+    font-size: 7px;
+    line-height: 8px;
+    font-weight: 600;
+    font-family: 'Akzidenz Grotesk BE';
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  

@@ -1,0 +1,142 @@
+.curationinterview-body-copy {
+    margin: 20px 0 10px;
+    font-size: 10px;
+  }
+
+.curationinterview-table {
+    border-collapse: collapse;
+    width: 496px;
+    max-width: 496px !important;
+    /* table-layout: fixed; */
+}
+
+
+.curationinterview-td-shaded {
+    background-color: #e6f1f2 !important;
+}
+
+.curationinterview-td-centered {
+    text-align: center;
+}
+
+.curationinterview-table tr {
+  line-height: 12px !important;
+  
+}
+.curationinterview-table td {
+    border: .5px solid #72c6c7;
+    text-align: left;
+    color: #173d68;
+    font-size: 8px;
+    vertical-align: middle;
+    text-overflow: ellipsis;
+    /* line-height: 14px; */
+}
+
+.curationinterview-table td:nth-child(1){
+  min-width: 207px;
+  max-width: 207px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 2.5px;
+  padding-bottom: 2.5px;
+}
+
+.curationinterview-table td:nth-child(2){
+    width: 324px;
+    max-width: 324px;
+}
+
+.curationinterview-title {
+    font-weight: 600;
+}
+
+.curationinterview-indent {
+    padding: 5px 0px 5px 10px;
+}
+
+  .selectedOption{
+    background-color: #64b3b4;
+    color: white;
+  }
+
+  .curationinterview-flex{
+    display: table-row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+.curationinterview-timing{
+    border-left: .5px solid #72c6c7;
+    display: table-cell;
+    min-width: 92px;
+    max-width: 92px;
+    padding: 8px 0px 8px 0px;
+  }
+
+.curationinterview-KnowledgeNeeded{
+    border-left: .5px solid #72c6c7;
+    display: table-cell;
+    min-width: 72px;
+    max-width: 72px;
+    padding: 8px 0px 8px 0px;
+  }
+
+.curationinterview-KnowledgeTask{
+    border-left: .5px solid #72c6c7;
+    display: table-cell;
+    min-width: 72px;
+    max-width: 72px;
+    padding: 0px 0px 0px 0px;
+  }
+
+.curationinterview-PersonalImpactLevel{
+    border-left: .5px solid #72c6c7;
+    display: table-cell;
+    min-width: 92px;
+    max-width: 92px;
+    padding: 8px 0px 8px 0px;
+  }
+
+.curationinterview-FundingKnown{
+    border-left: .5px solid #72c6c7;
+    display: table-cell;
+    min-width: 92px;
+    max-width: 92px;
+    /* padding: 10px 10px 10px 10px; */
+  }
+
+.curationinterview-Importance{
+    border-left: .5px solid #72c6c7;
+    display: table-cell;
+    min-width: 92px;
+    max-width: 72px;
+    padding: 8px 0px 8px 0px;
+  }
+
+  .curationinterview-InstallmentFrequency{
+    border-left: .5px solid #72c6c7;
+    display: table-cell;
+    min-width: 34.5px;
+    max-width: 34.5px;
+    padding: 2.5px 2.5px 2.5px 2.5px;
+  }
+
+  .curationinterview-InstallmentFrequency-Updated{
+    border-left: .5px solid #72c6c7;
+    display: table-cell;
+    min-width: 72px;
+    max-width: 72px;
+    padding: 8px 0px 8px 0px;
+    vertical-align: middle;
+  }
+
+  .curationinterview-answer {
+    padding-left: 5px !important;
+}
+
+/* .curationinterview-question {
+  padding-left: 20px !important;
+  width: 207px;
+} */

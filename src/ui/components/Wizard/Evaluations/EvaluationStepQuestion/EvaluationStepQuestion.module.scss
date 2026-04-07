@@ -1,0 +1,53 @@
+@import '../../../../../../public/styles/colors.scss';
+
+.responses_wrapper {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.actions_container {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.responses_container {
+  display: block;
+  width: 100%;
+}
+
+.question_container {
+  display: block;
+  margin-bottom: 15px !important;
+}
+
+.question_header {
+  background-color: $color-white !important;
+  border-bottom: 2px solid #f6f6f6 !important;
+}
+
+.question_header_action {
+
+}
+
+.question_text {
+  font-size: 1.2rem !important;
+  font-weight: bold !important;
+}
+
+.header_question {
+  flex-basis: 80%;
+  display: flex;
+  align-items: center;
+}
+
+.header_action {
+  flex-basis: 15%;
+  text-align: right;
+}
+
+.responses_details {
+  background-color: transparent !important;
+  padding: 25px 16px 25px 16px !important;
+}

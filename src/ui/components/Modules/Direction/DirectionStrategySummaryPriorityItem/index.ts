@@ -1,0 +1,4 @@
+import DirectionStrategySummaryPriorityItem
+    from "~/ui/components/Modules/Direction/DirectionStrategySummaryPriorityItem/DirectionStrategySummaryPriorityItem";
+
+export default DirectionStrategySummaryPriorityItem

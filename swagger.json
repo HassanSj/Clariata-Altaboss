@@ -1,0 +1,1334 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "version": "v1",
+    "title": "LifeMapWebAPI"
+  },
+  "host": "localhost:64489",
+  "schemes": [
+    "http"
+  ],
+  "paths": {
+    "/clientevaluation/list": {
+      "get": {
+        "tags": [
+          "ClientEvaluation"
+        ],
+        "operationId": "ClientEvaluation_Get",
+        "consumes": [],
+        "produces": [
+          "application/json",
+          "text/json",
+          "application/xml",
+          "text/xml"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/ClientEvaluation"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/ClientEvaluation/{id}": {
+      "get": {
+        "tags": [
+          "ClientEvaluation"
+        ],
+        "operationId": "ClientEvaluation_Get",
+        "consumes": [],
+        "produces": [
+          "application/json",
+          "text/json",
+          "application/xml",
+          "text/xml"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/ClientEvaluation"
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "ClientEvaluation"
+        ],
+        "operationId": "ClientEvaluation_Put",
+        "consumes": [],
+        "produces": [
+          "application/json",
+          "text/json",
+          "application/xml",
+          "text/xml"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "objRequest",
+            "in": "query",
+            "required": true,
+            "type": "object"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "object"
+            }
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "ClientEvaluation"
+        ],
+        "operationId": "ClientEvaluation_Delete",
+        "consumes": [],
+        "produces": [
+          "application/json",
+          "text/json",
+          "application/xml",
+          "text/xml"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "object"
+            }
+          }
+        }
+      }
+    },
+    "/ClientEvaluation": {
+      "post": {
+        "tags": [
+          "ClientEvaluation"
+        ],
+        "operationId": "ClientEvaluation_Post",
+        "consumes": [],
+        "produces": [
+          "application/json",
+          "text/json",
+          "application/xml",
+          "text/xml"
+        ],
+        "parameters": [
+          {
+            "name": "objRequest",
+            "in": "query",
+            "required": true,
+            "type": "object"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "object"
+            }
+          }
+        }
+      }
+    },
+    "/household/list": {
+      "get": {
+        "tags": [
+          "Household"
+        ],
+        "operationId": "Household_Get",
+        "consumes": [],
+        "produces": [
+          "application/json",
+          "text/json",
+          "application/xml",
+          "text/xml"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/Household"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/Household/{id}": {
+      "get": {
+        "tags": [
+          "Household"
+        ],
+        "operationId": "Household_Get",
+        "consumes": [],
+        "produces": [
+          "application/json",
+          "text/json",
+          "application/xml",
+          "text/xml"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/Household"
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Household"
+        ],
+        "operationId": "Household_Put",
+        "consumes": [],
+        "produces": [
+          "application/json",
+          "text/json",
+          "application/xml",
+          "text/xml"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "objRequest",
+            "in": "query",
+            "required": true,
+            "type": "object"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "object"
+            }
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Household"
+        ],
+        "operationId": "Household_Delete",
+        "consumes": [],
+        "produces": [
+          "application/json",
+          "text/json",
+          "application/xml",
+          "text/xml"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "object"
+            }
+          }
+        }
+      }
+    },
+    "/Household": {
+      "post": {
+        "tags": [
+          "Household"
+        ],
+        "operationId": "Household_Post",
+        "consumes": [],
+        "produces": [
+          "application/json",
+          "text/json",
+          "application/xml",
+          "text/xml"
+        ],
+        "parameters": [
+          {
+            "name": "objRequest",
+            "in": "query",
+            "required": true,
+            "type": "object"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "object"
+            }
+          }
+        }
+      }
+    },
+    "/objective/list": {
+      "get": {
+        "tags": [
+          "Objective"
+        ],
+        "operationId": "Objective_Get",
+        "consumes": [],
+        "produces": [
+          "application/json",
+          "text/json",
+          "application/xml",
+          "text/xml"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/Objective"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/Objective/{id}": {
+      "get": {
+        "tags": [
+          "Objective"
+        ],
+        "operationId": "Objective_Get",
+        "consumes": [],
+        "produces": [
+          "application/json",
+          "text/json",
+          "application/xml",
+          "text/xml"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/Objective"
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Objective"
+        ],
+        "operationId": "Objective_Put",
+        "consumes": [],
+        "produces": [
+          "application/json",
+          "text/json",
+          "application/xml",
+          "text/xml"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "objRequest",
+            "in": "query",
+            "required": true,
+            "type": "object"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "object"
+            }
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Objective"
+        ],
+        "operationId": "Objective_Delete",
+        "consumes": [],
+        "produces": [
+          "application/json",
+          "text/json",
+          "application/xml",
+          "text/xml"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "object"
+            }
+          }
+        }
+      }
+    },
+    "/Objective": {
+      "post": {
+        "tags": [
+          "Objective"
+        ],
+        "operationId": "Objective_Post",
+        "consumes": [],
+        "produces": [
+          "application/json",
+          "text/json",
+          "application/xml",
+          "text/xml"
+        ],
+        "parameters": [
+          {
+            "name": "objRequest",
+            "in": "query",
+            "required": true,
+            "type": "object"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "object"
+            }
+          }
+        }
+      }
+    },
+    "/PasswordResetToken": {
+      "get": {
+        "tags": [
+          "PasswordResetToken"
+        ],
+        "operationId": "PasswordResetToken_Get",
+        "consumes": [],
+        "produces": [
+          "application/json",
+          "text/json",
+          "application/xml",
+          "text/xml"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "object"
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "PasswordResetToken"
+        ],
+        "operationId": "PasswordResetToken_Post",
+        "consumes": [],
+        "produces": [
+          "application/json",
+          "text/json",
+          "application/xml",
+          "text/xml"
+        ],
+        "parameters": [
+          {
+            "name": "objRequest",
+            "in": "query",
+            "required": true,
+            "type": "object"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "object"
+            }
+          }
+        }
+      }
+    },
+    "/ResetPassword": {
+      "post": {
+        "tags": [
+          "ResetPassword"
+        ],
+        "operationId": "ResetPassword_Post",
+        "consumes": [],
+        "produces": [
+          "application/json",
+          "text/json",
+          "application/xml",
+          "text/xml"
+        ],
+        "parameters": [
+          {
+            "name": "objRequest",
+            "in": "query",
+            "required": true,
+            "type": "object"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "object"
+            }
+          }
+        }
+      }
+    },
+    "/ResetPasswordWithToken": {
+      "post": {
+        "tags": [
+          "ResetPasswordWithToken"
+        ],
+        "operationId": "ResetPasswordWithToken_Post",
+        "consumes": [],
+        "produces": [
+          "application/json",
+          "text/json",
+          "application/xml",
+          "text/xml"
+        ],
+        "parameters": [
+          {
+            "name": "objRequest",
+            "in": "query",
+            "required": true,
+            "type": "object"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "object"
+            }
+          }
+        }
+      }
+    },
+    "/Session": {
+      "get": {
+        "tags": [
+          "Session"
+        ],
+        "operationId": "Session_Get",
+        "consumes": [],
+        "produces": [
+          "application/json",
+          "text/json",
+          "application/xml",
+          "text/xml"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/Session"
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Session"
+        ],
+        "operationId": "Session_Post",
+        "consumes": [],
+        "produces": [
+          "application/json",
+          "text/json",
+          "application/xml",
+          "text/xml"
+        ],
+        "parameters": [
+          {
+            "name": "objRequest",
+            "in": "query",
+            "required": true,
+            "type": "object"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "object"
+            }
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Session"
+        ],
+        "operationId": "Session_Delete",
+        "consumes": [],
+        "produces": [
+          "application/json",
+          "text/json",
+          "application/xml",
+          "text/xml"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "object"
+            }
+          }
+        }
+      }
+    },
+    "/SessionValue": {
+      "get": {
+        "tags": [
+          "SessionValue"
+        ],
+        "operationId": "SessionValue_Get",
+        "consumes": [],
+        "produces": [
+          "application/json",
+          "text/json",
+          "application/xml",
+          "text/xml"
+        ],
+        "parameters": [
+          {
+            "name": "strKeyName",
+            "in": "query",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/SessionVariable"
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "SessionValue"
+        ],
+        "operationId": "SessionValue_Put",
+        "consumes": [],
+        "produces": [
+          "application/json",
+          "text/json",
+          "application/xml",
+          "text/xml"
+        ],
+        "parameters": [
+          {
+            "name": "strKeyName",
+            "in": "query",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "objRequest",
+            "in": "query",
+            "required": true,
+            "type": "object"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "object"
+            }
+          }
+        }
+      }
+    },
+    "/User": {
+      "get": {
+        "tags": [
+          "User"
+        ],
+        "operationId": "User_Get",
+        "consumes": [],
+        "produces": [
+          "application/json",
+          "text/json",
+          "application/xml",
+          "text/xml"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/User"
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "User"
+        ],
+        "operationId": "User_Post",
+        "consumes": [],
+        "produces": [
+          "application/json",
+          "text/json",
+          "application/xml",
+          "text/xml"
+        ],
+        "parameters": [
+          {
+            "name": "objRequest",
+            "in": "query",
+            "required": true,
+            "type": "object"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "object"
+            }
+          }
+        }
+      }
+    },
+    "/User/{id}": {
+      "put": {
+        "tags": [
+          "User"
+        ],
+        "operationId": "User_Put",
+        "consumes": [],
+        "produces": [
+          "application/json",
+          "text/json",
+          "application/xml",
+          "text/xml"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "objRequest",
+            "in": "query",
+            "required": true,
+            "type": "object"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "object"
+            }
+          }
+        }
+      },
+      "patch": {
+        "tags": [
+          "User"
+        ],
+        "operationId": "User_Patch",
+        "consumes": [],
+        "produces": [
+          "application/json",
+          "text/json",
+          "application/xml",
+          "text/xml"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "objRequest",
+            "in": "query",
+            "required": true,
+            "type": "object"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "object"
+            }
+          }
+        }
+      }
+    },
+    "/VerificationToken": {
+      "post": {
+        "tags": [
+          "VerificationToken"
+        ],
+        "operationId": "VerificationToken_Post",
+        "consumes": [],
+        "produces": [
+          "application/json",
+          "text/json",
+          "application/xml",
+          "text/xml"
+        ],
+        "parameters": [
+          {
+            "name": "objRequest",
+            "in": "query",
+            "required": true,
+            "type": "object"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "object"
+            }
+          }
+        }
+      }
+    },
+    "/VerifyEmailAddress": {
+      "get": {
+        "tags": [
+          "VerifyEmailAddress"
+        ],
+        "operationId": "VerifyEmailAddress_Get",
+        "consumes": [],
+        "produces": [
+          "application/json",
+          "text/json",
+          "application/xml",
+          "text/xml"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "object"
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "ClientEvaluation": {
+      "type": "object",
+      "properties": {
+        "ClientEvaluationID": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "Description": {
+          "type": "string"
+        },
+        "ClientID": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "ComplexityOfNeedsID": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "NeedsDetail": {
+          "type": "string"
+        },
+        "GoalsDetail": {
+          "type": "string"
+        },
+        "ConcernsDetail": {
+          "type": "string"
+        },
+        "LegacyInterestID": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "LegacyDetail": {
+          "type": "string"
+        },
+        "CreationDate": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "CreatedBy": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "LastModifiedDate": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "LastModifiedBy": {
+          "format": "int32",
+          "type": "integer"
+        }
+      }
+    },
+    "Household": {
+      "type": "object",
+      "properties": {
+        "HouseholdID": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "HouseholdName": {
+          "type": "string"
+        },
+        "PrimaryPerson1ID": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "PrimaryPerson2ID": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "MaritalStatusID": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "MarriageDate": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "ReligiousAffiliation": {
+          "type": "string"
+        },
+        "PhoneNumberListID": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "AddressListID": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "CommentSetID": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "PhotoAlbumID": {
+          "format": "int32",
+          "type": "integer"
+        }
+      }
+    },
+    "Objective": {
+      "type": "object",
+      "properties": {
+        "ObjectiveID": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "HouseholdID": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "PersonID": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "ClientID": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "InterviewID": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "QuestionID": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "InterviewResponseID": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "DimensionOfSuccessID": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "MetricOfSuccessID": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "Description": {
+          "type": "string"
+        },
+        "Champion": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "OtherPeople": {
+          "type": "string"
+        },
+        "MLPA": {
+          "type": "boolean"
+        },
+        "PriorityNow": {
+          "type": "boolean"
+        },
+        "PriorityLater": {
+          "type": "boolean"
+        },
+        "DIY": {
+          "type": "boolean"
+        },
+        "AssistanceNeeded": {
+          "type": "boolean"
+        },
+        "Rank": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "Importance": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "SuccessImage": {
+          "type": "string"
+        },
+        "SuccessDescription": {
+          "type": "string"
+        },
+        "StartDate": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "ProjectedEndDate": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "ScheduleFrequencyID": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "ScheduleDetail": {
+          "type": "string"
+        },
+        "AmountOfTimeNeeded": {
+          "type": "string"
+        },
+        "KnowledgeYesNo": {
+          "type": "boolean"
+        },
+        "KnowledgeNow": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "KnowledgeNeeded": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "KnowledgeNeedToKnow": {
+          "type": "string"
+        },
+        "KnowledgeTask": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "KnowledgeAdvisorHelp": {
+          "type": "string"
+        },
+        "PersonalImpactLevel": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "PersonalExperience": {
+          "type": "string"
+        },
+        "ExperienceNow": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "ExperienceNeeded": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "FundingKnown": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "TotalFundingAmount": {
+          "format": "double",
+          "type": "number"
+        },
+        "InstallmentFrequency": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "InstallmentFrequencyOther": {
+          "type": "string"
+        },
+        "InstallmentAmount": {
+          "format": "double",
+          "type": "number"
+        },
+        "FundingDetail": {
+          "type": "string"
+        },
+        "PersonalBalanceSheet": {
+          "format": "double",
+          "type": "number"
+        },
+        "FamilyBalanceSheet": {
+          "format": "double",
+          "type": "number"
+        },
+        "Connections": {
+          "type": "string"
+        },
+        "StatusID": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "StatusText": {
+          "type": "string"
+        },
+        "CreationDate": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "CreatedBy": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "LastModifiedDate": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "LastModifiedBy": {
+          "format": "int32",
+          "type": "integer"
+        }
+      }
+    },
+    "Session": {
+      "type": "object",
+      "properties": {
+        "SessionGUID": {
+          "type": "string"
+        },
+        "ExpirationDate": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "IPAddress": {
+          "type": "string"
+        },
+        "UserAgent": {
+          "type": "string"
+        },
+        "CreationDate": {
+          "format": "date-time",
+          "type": "string"
+        }
+      }
+    },
+    "SessionVariable": {
+      "type": "object",
+      "properties": {
+        "SessionVariableID": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "UserID": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "SessionID": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "VariableName": {
+          "type": "string"
+        },
+        "VariableValue": {
+          "type": "string"
+        },
+        "CreationDate": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "CreatedBy": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "LastModifiedDate": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "LastModifiedBy": {
+          "format": "int32",
+          "type": "integer"
+        }
+      }
+    },
+    "User": {
+      "type": "object",
+      "properties": {
+        "UserID": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "Username": {
+          "type": "string"
+        },
+        "EmailAddress": {
+          "type": "string"
+        },
+        "FirstName": {
+          "type": "string"
+        },
+        "LastName": {
+          "type": "string"
+        },
+        "StreetAddress": {
+          "type": "string"
+        },
+        "City": {
+          "type": "string"
+        },
+        "StateRegion": {
+          "type": "string"
+        },
+        "Country": {
+          "type": "string"
+        },
+        "PostalCode": {
+          "type": "string"
+        },
+        "PhoneNumberMobile": {
+          "type": "string"
+        },
+        "PhoneNumberHome": {
+          "type": "string"
+        },
+        "PhoneNumberWork": {
+          "type": "string"
+        },
+        "Company": {
+          "type": "string"
+        },
+        "AvatarURL": {
+          "type": "string"
+        },
+        "ProfilePhoto": {
+          "type": "string"
+        },
+        "AddressListID": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "PhoneNumberListID": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "CommentListID": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "CreationDate": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "CreatedBy": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "LastModifiedDate": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "LastModifiedBy": {
+          "format": "int32",
+          "type": "integer"
+        }
+      }
+    }
+  }
+}

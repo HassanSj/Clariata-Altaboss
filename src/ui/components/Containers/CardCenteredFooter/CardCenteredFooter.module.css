@@ -1,0 +1,14 @@
+.card_footer {
+  margin-top: 15px;
+  padding: 0px;
+}
+
+.card_footer button {
+  margin-right: 15px;
+}
+
+.card_footer > div {
+  margin-top: 20px;
+}
+
+/*# sourceMappingURL=CardCenteredFooter.module.css.map */

@@ -1,0 +1,25 @@
+@import '../../../../../public/styles/colors.scss';
+
+.wizard_right {
+  height: 100%;
+  background: transparent !important;
+}
+
+.wizard_right_drawer {
+  width: 80%;
+}
+
+.wizard_progress {
+  padding: 15px 30px;
+  color: $color-gray;
+}
+
+.wizard_progress_item {
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.wizard_content {
+  min-height: 300px;
+  padding: 0px 15px 15px 15px !important;
+}

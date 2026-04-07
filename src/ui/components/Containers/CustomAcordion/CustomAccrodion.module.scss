@@ -1,0 +1,109 @@
+.MuiTypographyBody1 {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+.MuiTypographyBody2 {
+  font-size: 0.875rem;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+  line-height: 1.43;
+}
+
+.CustomAccordion {
+  box-shadow: none !important;
+
+  &::before {
+    background-color: transparent !important;
+  }
+}
+
+.CustomAccordionSummary {
+  background-color: #e6f1f2 !important;
+
+  &.MuiAccordionSummary-root.Mui-expanded {
+    min-height: 64px;
+  }
+
+  &.MuiAccordionSummary-root {
+    display: flex;
+    padding: 0 40px;
+    min-height: 48px;
+    transition: min-height 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  }
+
+  &.MuiAccordionSummary-content {
+    margin: 12px 0;
+    display: flex;
+    flex-grow: 1;
+    transition: margin 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  }
+
+  &.MuiAccordionSummary-content.Mui-expanded {
+    margin: 15px 0;
+  }
+
+  &.MuiAccordionSummary-expandIcon {
+    transform: rotate(0deg);
+    transition: transform 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  }
+}
+
+.CustomAccordionDetails {
+  background: #f1f1f1;
+
+  label {
+    background: #f1f1f1 !important;
+  }
+}
+
+.MuiButtonBase-root {
+  color: inherit;
+  border: 0;
+  cursor: pointer;
+  margin: 0;
+  display: inline-flex;
+  outline: 0;
+  padding: 0;
+  position: relative;
+  align-items: center;
+  user-select: none;
+  border-radius: 0;
+  vertical-align: middle;
+  -moz-appearance: none;
+  justify-content: center;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-appearance: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.MuiCollapse-hidden {
+  visibility: hidden;
+}
+
+.MuiCollapse-root {
+  overflow: hidden;
+  transition: height 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+.MuiCollapse-wrapper {
+  display: flex;
+}
+
+.MuiCollapse-wrapperInner {
+  width: 100%;
+}
+
+.MuiAccordionActions-root {
+  display: flex;
+  padding: 8px;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.CustomAccordion {
+
+}

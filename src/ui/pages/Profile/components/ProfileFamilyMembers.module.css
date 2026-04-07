@@ -1,0 +1,48 @@
+.AccordionTitle {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.BlueChip {
+  background-color: #cfe5e8 !important;
+  margin-right: 5px;
+}
+
+.BcrRows {
+  background-color: #fff;
+  padding: 10px 20px;
+  border: 1px solid #72c6c7;
+  margin-top: -1px;
+}
+.BcrRows p {
+  margin: 0;
+}
+
+.BcrTop {
+  border: 1px solid #72c6c7;
+  background-color: #eff8f7;
+  padding: 10px 20px;
+}
+.BcrTop p {
+  text-align: left;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 600;
+  margin: 0;
+  background-color: transparent;
+}
+
+.Turquoise {
+  color: #72c6c7;
+}
+
+.PersonContainer {
+  width: 315px;
+  padding: 10px;
+}
+
+.ProfileWrapper {
+  overflow-x: scroll;
+}
+
+/*# sourceMappingURL=ProfileFamilyMembers.module.css.map */

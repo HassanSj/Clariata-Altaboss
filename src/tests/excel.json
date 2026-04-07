@@ -1,0 +1,75 @@
+{
+  "name": "Report Name",
+  "createdAt": "2021-05-12",
+  "sheets": [
+    {
+      "name": "Sheet Name",
+      "columns": [
+        {
+          "header": "Name",
+          "key": "name",
+          "width": 10,
+          "style": {
+            "fill": {
+              "bgColor": {
+                "argb": "FFFF0000"
+              }
+            },
+            "font": {
+              "size": 16,
+              "bold": true
+            },
+            "alignment": {
+              "horizontal": "center",
+              "vertical": "middle"
+            },
+            "border": {
+              "top": {"style":"double", "color": {"argb":"FF00FF00"}},
+              "left": {"style":"double", "color": {"argb":"FF00FF00"}},
+              "bottom": {"style":"double", "color": {"argb":"FF00FF00"}},
+              "right": {"style":"double", "color": {"argb":"FF00FF00"}}
+            }
+          }
+        },
+        {
+          "header": "Email",
+          "key": "email",
+          "width": 32,
+          "style": {
+            "fill": {
+              "bgColor": {
+                "argb": "FFFF0000"
+              }
+            },
+            "font": {
+              "size": 16,
+              "bold": true
+            },
+            "alignment": {
+              "horizontal": "center",
+              "vertical": "middle"
+            },
+            "border": {
+              "top": {"style":"double", "color": {"argb":"FF00FF00"}},
+              "left": {"style":"double", "color": {"argb":"FF00FF00"}},
+              "bottom": {"style":"double", "color": {"argb":"FF00FF00"}},
+              "right": {"style":"double", "color": {"argb":"FF00FF00"}}
+            }
+          }
+        }
+      ],
+      "rows": [
+        {
+          "id": 1,
+          "name": "Jordan Allen",
+          "email": "jordan@macinteractive.io"
+        },
+        {
+          "id": 2,
+          "name": "John Doe",
+          "email": "john@email.com"
+        }
+      ]
+    }
+  ]
+}

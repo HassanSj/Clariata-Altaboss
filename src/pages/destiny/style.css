@@ -1,0 +1,138 @@
+.main_wrapper {
+    padding: 2rem 0px;
+}
+
+.family_name {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.family_member {
+    font-size: 1.1rem;
+}
+
+.select_dropDown {
+    padding: 0px !important;
+}
+
+.flex_wrap {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.list_hover:hover .clr_white {
+    color: white;
+}
+
+.plansDropdown {
+    height: 45px;
+    width: 7.5rem;
+    margin-left: 8px;
+    padding-inline-start: 9px;
+    font-size: 16px;
+}
+
+.flex_wrap_main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mt-1 {
+    margin-top: 8px;
+}
+
+.create_plan_button {
+    cursor: pointer;
+    height: 45px;
+    width: 7rem;
+    background-color: #183f69;
+    color: white;
+    border: 1px solid #183f69;
+    border-radius: 4px;
+
+}
+
+.cancel_plan_button {
+    cursor: pointer;
+    height: 45px;
+    width: 7rem;
+    background-color: #720518;
+    color: white;
+    border: 1px solid #720518;
+    border-radius: 4px;
+}
+
+.accordion_bg {
+    background-color: #c9e6e9 !important;
+}
+
+.d_msg {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.style_close {
+    background-color: #ab1a32 !important;
+    color: antiquewhite !important;
+    border-radius: 4px !important;
+    position: absolute !important;
+    bottom: 0;
+    right: 0;
+}
+
+/* .remove_button {
+    background-color: #ab1a32 !important;
+    color: antiquewhite !important;
+    border-radius: 4px !important;
+} */
+
+.seacrh_button {
+    cursor: pointer;
+    border-radius: 4px;
+    height: 43px !important;
+    width: -webkit-fill-available;
+    background-color: #304256;
+    color: white;
+    border: 1px solid #304256;
+    border-radius: 4px;
+}
+
+.search {
+    margin: 8px 3px;
+    height: 43px !important;
+    padding-inline: 11px;
+    width: -webkit-fill-available;
+}
+
+.card-header-image {
+    background: url('../../../public/images/backgrounds/family_gathering.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-top: -20px;
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-bottom: 25px;
+    padding: 20px;
+    min-height: 400px;
+}
+
+.header_bg {
+    background: url('../../../public/images/backgrounds/family_gathering.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-top: -20px;
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-bottom: 25px;
+    padding: 20px;
+    min-height: 400px;
+}

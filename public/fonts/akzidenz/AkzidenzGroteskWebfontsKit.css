@@ -1,0 +1,13 @@
+
+@font-face {
+  font-family: "AkzidenskGrotesk-Medium";
+  src: url('./akzidenz_grotesk_medium.otf') format('otf');
+}
+@font-face {
+  font-family: "AkzidenskGrotesk-Light";
+  src: url('./akzidenz_grotesk_light.otf') format('otf');
+}
+@font-face {
+  font-family: "AkzidenskGrotesk-extralight";
+  src: url('./akzidenz_grotesk_extralight.otf') format('otf');
+}

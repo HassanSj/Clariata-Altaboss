@@ -1,0 +1,51 @@
+name: Deploy to Dev
+on:
+  push:
+    branches:
+      - dev
+jobs:
+  push:
+    name: Push to Azure Container Registry
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repo
+        uses: actions/checkout@v2
+      - name: Log in to Registry
+        run: docker login ${{ secrets.DEV_REGISTRY }} -p ${{ secrets.DEV_REGISTRY_PASS }} -u ${{ secrets.DEV_REGISTRY_USER }}
+      - name: Extract metadata (tags, labels) for Docker
+        id: meta
+        uses: docker/metadata-action@98669ae865ea3cffbcbaa878cf57c20bbf1c6c38
+        with:
+          images: ${{ secrets.DEV_REGISTRY }}/${{ secrets.DEV_IMAGE }}
+      - name: Build and push Docker image
+        uses: docker/build-push-action@ad44023a93711e3deb337508980b4b5e9bcdc5dc
+        with:
+          context: .
+          push: true
+          tags: ${{ steps.meta.outputs.tags }}
+          labels: ${{ steps.meta.outputs.labels }}
+#  deploy:
+#    name: Deploy to AWS Dev
+#    runs-on: ubuntu-latest
+#    steps:
+#      - uses: actions/checkout@v2
+#        with:
+#          fetch-depth: 0
+#      - name: Install SSH key
+#        env:
+#          SSH_AUTH_SOCK: /tmp/ssh_agent.sock
+#        run: |
+#          mkdir -p ~/.ssh
+#          touch ~/.ssh/id_rsa
+#          echo "${{ secrets.DEV_PRIVATE_KEY }}" | tr -d '\r' > ~/.ssh/id_rsa
+#          chmod 700 ~/.ssh/id_rsa
+#          ssh-agent -a $SSH_AUTH_SOCK > /dev/null
+#          ssh-add ~/.ssh/id_rsa
+#          ssh-keyscan -t rsa $(echo "${{ secrets.DEV_HOST }}") > ~/.ssh/known_hosts
+#          echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config
+#          chmod 644 ~/.ssh/known_hosts
+#      - name: Push changes
+#        env:
+#          SSH_AUTH_SOCK: /tmp/ssh_agent.sock
+#        run: |
+#          ssh -t ${{ secrets.DEV_USER }}@${{ secrets.DEV_HOST }} "C:\Users\Administrator\Desktop\CLARIATA\deploy-web.bat"

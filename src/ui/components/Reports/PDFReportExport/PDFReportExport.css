@@ -1,0 +1,131 @@
+@font-face {
+    font-family: 'Akzidenz Grotesk BE';
+    src: url('~/fonts/AkzidenzGroteskBE/AkzidenzGroteskBE-Regular.woff2') format('woff2'),
+        url('~/fonts/AkzidenzGroteskBE/AkzidenzGroteskBE-Regular.woff') format('woff'),
+        url('~/fonts/AkzidenzGroteskBE/AkzidenzGroteskBE-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Akzidenz Grotesk BE';
+    src: url('~/fonts/AkzidenzGroteskBE/AkzidenzGroteskBE-Light.woff2') format('woff2'),
+        url('~/fonts/AkzidenzGroteskBE/AkzidenzGroteskBE-Light.woff') format('woff'),
+        url('~/fonts/AkzidenzGroteskBE/AkzidenzGroteskBE-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Akzidenz Grotesk BE Super';
+    src: url('~/fonts/AkzidenzGroteskBE/AkzidenzGroteskBE-Super.woff2') format('woff2'),
+        url('~/fonts/AkzidenzGroteskBE/AkzidenzGroteskBE-Super.woff') format('woff'),
+        url('~/fonts/AkzidenzGroteskBE/AkzidenzGroteskBE-Super.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Akzidenz Grotesk BE';
+    src: url('~/fonts/AkzidenzGroteskBE/AkzidenzGroteskBE-LightIt.woff2') format('woff2'),
+        url('~/fonts/AkzidenzGroteskBE/AkzidenzGroteskBE-LightIt.woff') format('woff'),
+        url('~/fonts/AkzidenzGroteskBE/AkzidenzGroteskBE-LightIt.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Akzidenz Grotesk BE';
+    src: url('~/fonts/AkzidenzGroteskBE/AkzidenzGroteskBE-BoldIt.woff2') format('woff2'),
+        url('~/fonts/AkzidenzGroteskBE/AkzidenzGroteskBE-BoldIt.woff') format('woff'),
+        url('~/fonts/AkzidenzGroteskBE/AkzidenzGroteskBE-BoldIt.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Akzidenz Grotesk BE';
+    src: url('~/fonts/AkzidenzGroteskBE/AkzidenzGroteskBE-Bold.woff2') format('woff2'),
+        url('~/fonts/AkzidenzGroteskBE/AkzidenzGroteskBE-Bold.woff') format('woff'),
+        url('~/fonts/AkzidenzGroteskBE/AkzidenzGroteskBE-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Akzidenz Grotesk BE Super';
+    src: url('~/fonts/AkzidenzGroteskBE/AkzidenzGroteskBE-SuperItalic.woff2') format('woff2'),
+        url('~/fonts/AkzidenzGroteskBE/AkzidenzGroteskBE-SuperItalic.woff') format('woff'),
+        url('~/fonts/AkzidenzGroteskBE/AkzidenzGroteskBE-SuperItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Akzidenz Grotesk BE';
+    src: url('~/fonts/AkzidenzGroteskBE/AkzidenzGroteskBE-Md.woff2') format('woff2'),
+        url('~/fonts/AkzidenzGroteskBE/AkzidenzGroteskBE-Md.woff') format('woff'),
+        url('~/fonts/AkzidenzGroteskBE/AkzidenzGroteskBE-Md.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Akzidenz Grotesk BE';
+    src: url('~/fonts/AkzidenzGroteskBE/AkzidenzGroteskBE-MdIt.woff2') format('woff2'),
+        url('~/fonts/AkzidenzGroteskBE/AkzidenzGroteskBE-MdIt.woff') format('woff'),
+        url('~/fonts/AkzidenzGroteskBE/AkzidenzGroteskBE-MdIt.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Akzidenz Grotesk BE';
+    src: url('~/fonts/AkzidenzGroteskBE/AkzidenzGroteskBE-It.woff2') format('woff2'),
+        url('~/fonts/AkzidenzGroteskBE/AkzidenzGroteskBE-It.woff') format('woff'),
+        url('~/fonts/AkzidenzGroteskBE/AkzidenzGroteskBE-It.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+.pdf-footer {
+    position: absolute;
+    left: 50px;
+    bottom: 10px;
+    max-height: 25px;
+}
+
+.pdf-footer-table {
+    border: none;
+    border-spacing: 0px;
+}
+
+.pdf-footer-table-td {
+    padding: 0px;
+}
+
+.pdf-footer-logo {
+    padding: 0px;
+    width: 25px;
+}
+
+.pdf-footer-createdby {
+    font-family: 'Akzidenz Grotesk BE';
+    font-size: 8px;
+    padding-left: 10px;
+}
+.pdf-footer-copyright {
+    font-family: 'Akzidenz Grotesk BE';
+    font-size: 7px;
+    padding-left: 10px;
+}

@@ -1,0 +1,26 @@
+.avatar {
+  width: 4rem !important;
+  height: 4rem !important;
+}
+
+.filter_header {
+  font-size: 1.1rem;
+}
+
+.filter {
+  margin-bottom: 10px;
+  font-size: 0.8rem !important;
+}
+
+.filter .MuiTypography-body1 {
+  font-size: 0.8rem !important;
+  white-space: nowrap !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+}
+
+.toolbar {
+  padding: 15px;
+}
+
+/*# sourceMappingURL=BrowseActionItems.module.css.map */

@@ -1,0 +1,52 @@
+.interview-table {
+    border-collapse: collapse;
+  }
+  .interview-table .int-table-header {
+    background-color: #173f69;
+    margin-top: 30px;
+    page-break-inside:avoid;
+    page-break-after:avoid;
+  }
+  .interview-table .int-table-header p {
+    color: #fff;
+    font-weight: 600;
+    font-size: 8px;
+    padding: 5px 30px;
+  }
+  
+  .table-questions-wrap {
+    border-collapse: collapse;
+    width:100%;
+    border: 1px solid #73c8c9;
+  }
+  
+  .table-questions-wrap th, .table-questions-wrap td {
+    border: 1px solid #73c8c9;
+  }
+  
+  .table-questions-wrap td {
+    font-weight: 600;
+    font-size: 8px;
+    color: #173f69;
+    padding: 5px 20px;
+  }
+  
+  .table-questions-wrap td.clarifying {
+    font-size: 8px;
+    padding-left: 50px;
+  }
+  
+  .table-questions-wrap td.response {
+    color: #000000;
+  }
+  
+  .table-questions-wrap .int-table-header th {
+    color: #fff;
+    font-weight: 600;
+    font-size: 8px;
+    padding: 5px 20px;
+  }
+  
+  .table-questions-wrap {
+      margin-top:30px;
+  }

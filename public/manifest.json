@@ -1,0 +1,17 @@
+{
+  "name": "Clariata",
+  "short_name": "clariata-app",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#337ab7",
+  "theme_color": "#f5f5f5",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "/images/favicon.png",
+      "sizes": "36x36",
+      "type": "image/png",
+      "density": "0.75"
+    }
+  ]
+}

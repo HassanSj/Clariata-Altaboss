@@ -1,0 +1,65 @@
+.priority-ppw-top {
+    margin-top: 35px;
+}
+
+.prioritygrid-body-copy {
+    margin: 20px 0 10px;
+  }
+
+  .priority-table {
+    width: 100%;
+    margin-bottom: 10px;
+    border-collapse: collapse;
+  }
+
+  .priority-table th {
+    font-size: 8px;
+    padding: 5px;
+    background-color: #173d68;
+    color: #fff;
+    border-right: .5px solid #ffffff;
+    border-collapse: collapse;
+    font-family: 'Akzidenz Grotesk BE';
+  }
+
+  .priority-table th:nth-child(1) {
+    background-color: #fff;
+    border-right: none;
+  }
+  .priority-table th:nth-child(7) {
+    border-right: .5px solid transparent;
+    border-collapse: collapse;
+  }
+  .priority-table tbody tr:first-child td {
+    border-top: .5px solid transparent;
+    border-collapse: collapse;
+  }
+  .priority-table tbody tr:first-child td:nth-child(1) {
+    border-top: .5px solid #72c6c7;
+    width: 25px;
+  }
+  .priority-table td {
+    background-color: #eef8f7;
+    border: .5px solid #72c6c7;
+    width: auto;
+    color: #173d68;
+    font-size: 8px;
+    padding: 0px 5px;
+    font-family: 'Akzidenz Grotesk BE';
+    vertical-align: middle;
+  }
+
+  .priority-table td:nth-child(1) {
+    background-color: #fff;
+    font-weight: 600;
+    padding: 7.5px 5px;
+    text-align: center;
+  }
+  .priority-table td:nth-child(2) {
+    width: 30%;
+    font-weight: 600;
+  }
+  .priority-table td:nth-child(6), .priority-table td:nth-child(7) {
+    font-size: 8px;
+    text-align: center;
+  }

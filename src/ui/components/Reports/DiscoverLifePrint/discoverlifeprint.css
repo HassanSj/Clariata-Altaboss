@@ -1,0 +1,430 @@
+.LifePrint-Display{
+  display: block;
+}
+
+.k-pdf-export .LifePrint-Display{
+  display: block;
+}
+
+.dlpr-lifeprint-family-tree { 
+    background-color:#eff8f7; border-bottom:20px solid white; 
+}
+
+.lifeprint-heading { 
+    display:inline-block; 
+    margin: 0px 0px 0px -1px; 
+    padding:15px 30px 15px 30px; 
+    font-weight:600; color:#ffffff; 
+    background-color:#7acaca; 
+    text-transform:uppercase; 
+    font-size:22px; line-height:22px; 
+}
+
+.lifeprint-heading-alt { 
+  display:inline-block; 
+  margin: 0px 0px 0px -1px; 
+  padding:15px 30px 15px 30px; 
+  font-weight:600; color:#ffffff; 
+  background-color:#446286; 
+  text-transform:uppercase; 
+  font-size:22px; line-height:22px; 
+}
+    
+.dlpr-lifeprint-family-tree .lifeprint-heading { 
+    background-color:#1a3f69; 
+}
+
+
+
+  .module-logo {
+    max-width: 140px;
+  }
+
+  .dlpr-footer {
+    height: 200px;
+  }
+
+/* TIMELINE STYLING */
+
+.lifeprint-person-one-image, .lifeprint-person-two-image{
+  display: flex;
+}
+
+.lifeprint-person-one-img > img, .lifeprint-person-two-img > img {
+  width: 25px;
+  height: auto;
+}
+
+.lifeprint-header-text {
+  float: right;
+  background: rgb(239 248 247);
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  font-weight: 600;
+  color: #7acaca;
+  width: 75px;
+  text-align: center;
+  justify-content: center;
+  font-size: 16.43px;
+}
+
+.lifeprint-family-text {
+  font-weight: bold;
+  font-size: 12px;
+  overflow-wrap: break-word;
+  max-width: 175px;
+  text-align: center;
+  color: #1a3f69;
+}
+
+#lifeprint-timeline .demo-card:nth-child(odd) .head .after, #timeline .demo-card:nth-child(even) .head .after {
+  position: absolute;
+  content: "";
+  width: 51px;
+  height: 2px;
+  border-color: #7acaca;
+  margin-top: 5px;
+}
+
+#lifeprint-timeline .demo-card:nth-child(odd) .head .before, #timeline .demo-card:nth-child(even) .head .before {
+  position: absolute;
+  content: "";
+  width: 12px;
+  height: 12px;
+  background-color: #7acaca;
+  border-radius: 9px;
+}
+
+#lifeprint-timeline .demo-card-wrapper {
+  position: relative;
+  margin: auto;
+}
+  #lifeprint-timeline .demo-card-wrapper {
+    display: flex;
+    /* flex-flow: column wrap; */
+    flex-wrap: wrap;
+    width: 100%;
+    /* height: 1650px; */
+    margin: 0 auto;
+  }
+
+#lifeprint-timeline .demo-card-wrapper .afterOuter {
+  z-index: 1;
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  border-left: 1px solid rgba(191, 191, 191, 0.4);
+}
+  #lifeprint-timeline .demo-card-wrapper .afterOuter {
+    border-left:3px dotted #7acaca;
+  }
+#lifeprint-timeline .demo-card {
+  position: relative;
+  display: block;
+  margin: 10px auto 80px;
+  max-width: 94%;
+  z-index: 2;
+  page-break-inside: avoid;
+}
+#lifeprint-timeline .demo-card .before {
+  margin-top: 5px;
+}
+/* // @media (min-width: 480px) {
+//   #timeline .demo-card {
+//     max-width: 60%;
+//   }
+// }
+// @media (min-width: 720px) {
+//   #timeline .demo-card {
+//     max-width: 80%;
+//   }
+// } */
+
+  #lifeprint-timeline .demo-card {
+    max-width: 250px;
+    /* // height: 275px;
+    // margin: 90px; */
+    margin-top: 20px !important;
+    padding-right: 50px;
+    /* // margin-bottom: 60px; */
+    margin: 0;
+  }
+  /* // #timeline .demo-card:nth-child(odd) {
+  //   margin-right: 45px;
+  // } */
+
+  #lifeprint-timeline * {
+     -moz-box-sizing: border-box; 
+     -webkit-box-sizing: border-box; 
+     box-sizing: border-box;  
+  } 
+  #lifeprint-timeline .demo-card:nth-child(odd) .head .after {
+    border-left-style: solid;
+    left: 50%;
+  }
+  #lifeprint-timeline .demo-card:nth-child(even) .head .after {
+    border-right-style: solid;
+    right: 100%;
+  }
+  #lifeprint-timeline .demo-card:nth-child(4n-3) .head .after {
+    border-left-width: 160px;
+  }
+  #lifeprint-timeline .demo-card:nth-child(4n-1) .head .after {
+    border-left-width: 320px;
+  }
+  #lifeprint-timeline .demo-card:nth-child(4n-2) .head .after {
+    border-right-width: 80px;
+  }
+  #lifeprint-timeline .demo-card:nth-child(4n) .head .after {
+    border-right-width: 160px;
+  }
+  #lifeprint-timeline .demo-card:nth-child(4n-3) .head .before {
+    left: 250px;
+  }
+  #lifeprint-timeline .demo-card:nth-child(4n-1) .head .before {
+    left: 410px;
+  }
+  #lifeprint-timeline .demo-card:nth-child(4n-2) .head .before {
+    right: 268px;
+  }
+  #lifeprint-timeline .demo-card:nth-child(4n) .head .before {
+    right: 348px;
+  }
+  #lifeprint-timeline .demo-card:nth-child(4n-3) {
+    margin-left: 160px;
+  }
+  #lifeprint-timeline .demo-card:nth-child(4n-2) {
+    margin-left: 80px;
+  }
+  #lifeprint-timeline .demo-card:nth-child(4n) {
+    margin-left: 320px;
+  }
+  /* // #timeline .demo-card:nth-child(even) {
+  //   margin-left: 140px;
+  // }
+  // #timeline .demo-card:nth-child(even) .head::after {
+  //   border-right-width: 89px;
+  //   border-right-style: solid;
+  //   right: 100%;
+  // }
+  // #timeline .demo-card:nth-child(even) .head::before {
+  //   right: 386.5px;
+  // }
+  // #timeline .demo-card:nth-child(2) {
+  //   margin-top: 180px;
+  // } */
+#lifeprint-timeline .demo-card .head {
+  position: relative;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-weight: 400;
+}
+#lifeprint-timeline .demo-card .number-box {
+  display: inline;
+  float: left;
+  margin: 15px;
+  padding: 10px;
+  font-size: 35px;
+  line-height: 35px;
+  font-weight: 600;
+  background: rgba(0, 0, 0, 0.17);
+}
+#lifeprint-timeline .demo-card .head h2 {
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  font-weight: inherit;
+  letter-spacing: 2px;
+  margin: 0;
+  padding-bottom: 6px;
+  line-height: 1rem;
+}
+@media (min-width: 480px) {
+  #lifeprint-timeline .demo-card .head h2 {
+    font-size: 165%;
+    line-height: 1.2rem;
+  }
+}
+#lifeprint-timeline .demo-card .head h2 span {
+  display: block;
+  font-size: 0.6rem;
+  margin: 0;
+}
+@media (min-width: 480px) {
+  #lifeprint-timeline .demo-card .head h2 span {
+    font-size: 0.8rem;
+  }
+}
+#lifeprint-timeline .demo-card .body {
+  background: #fff;
+  border: 1px solid rgba(191, 191, 191, 0.4);
+  border-top: 0;
+  padding: 15px;
+}
+
+  #lifeprint-timeline .demo-card .body {
+    height: 275px;
+  }
+#lifeprint-timeline .demo-card .body p {
+  font-size: 14px;
+  line-height: 18px;
+  margin-bottom: 15px;
+}
+#lifeprint-timeline .demo-card .body img {
+  display: inline;
+  width: 100%;
+  max-width:100px;
+}
+
+
+.lifeprint-timeline-card {
+  width : 200px !important;
+}
+
+.lifeprint-timeline-card-img img {
+    width: 130px;
+    height: 112px;
+    object-fit: cover;
+    border: 1px solid #72c6c7;
+}
+
+.lifeprint-timeline-date {
+  color: #ffffff;
+  background-color: #7acaca;
+  text-align: center;
+ font-size: 12px;
+ padding: 5px 10px;
+ max-width: 50px;
+ margin:0px;
+}
+
+.lifeprint-timeline-event {
+  background-color: #eff8f7;
+  display: flex;
+  align-items: center;
+  max-width: 150px;
+  min-width: 150px;
+  font-size: 13px;
+}
+.lifeprint-timeline-event-title {
+  min-width: 115px;
+  padding: 10px;
+}
+.lifeprint-timeline-event p {
+  font-size: 10px;
+    padding: 10px;
+}
+
+.lifeprint-timeline-event img {
+  width: 25px !important;
+  height: auto !important;
+  margin: 5px 10px;
+  text-align: right;
+}
+
+.lifeprint-timeline-event-icon {
+  min-width: 50px;
+}
+
+.lifeprint-demo-card-wrapper-custom{
+  display: flex !important;
+    flex-direction: column !important;
+}
+
+.lifeprint-My-grid{
+  margin-top: -17px;
+  display: flex;
+}
+
+.lifeprint-head-custom{
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  width:100%;
+}
+
+.lifeprint-primary-one-side{
+  width: 50% !important;
+  float : left !important;
+}
+.lifeprint-primary-two-side{
+  width: 50% !important;
+  float : right !important;
+}
+
+.lifeprint-middle-line{
+  padding:0 10px; 
+  border-top: 1px solid #7acaca; 
+  height: 1px;
+  margin-top: 3px;
+  line-height: 0.1em;
+}
+.lifeprint-primary-two-side-middle-line{
+  margin: -3px;
+  float : left !important;
+  width : 40% !important;
+}
+.lifeprint-primary-one-side-middle-line{
+  float : right !important;
+  position: relative;
+  margin-right: -7px !important;
+  width : 50% !important;
+}
+.lifeprint-primary-one-timeline{
+  float : left !important;
+  width : 100% !important;
+  margin-left: 175px;
+}
+.lifeprint-primary-two-timeline{
+  float : right !important;
+  width : 100% !important;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.lifeprint-display-flex-align{
+  display: flex;
+    align-items: center;
+}
+.lifeprint-man-timeline-before {
+}
+.lifeprint-timeline-card-img{
+  background: #eff8f7 !important;
+  width: 77px !important;
+  border: 2px solid #7acaca  !important;
+}
+.lifeprint-circle{
+  background: #7acaca;
+    border-radius: 50%;
+    width: 10px;     
+    position: absolute;
+    height: 10px;
+    left: 525px;
+}
+/* // .left-circle{
+//   left: -3px; !important
+// }
+// .right-circle{
+//   right: -6px !important
+// } */
+.lifeprint-my-side{
+  display: flex;
+  align-items: center;
+}
+.lifeprint-timeline-info{
+  width: 400px;
+}
+.lifeprint-timeline-event{
+  font-size: 13px;
+}
+.lifeprint-timeline-header {
+  display: flex;
+  justify-content: space-evenly;
+  height: 75px;
+  margin-top : 20px;
+  margin-bottom : 20px;
+}

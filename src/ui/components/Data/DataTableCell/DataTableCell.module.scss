@@ -1,0 +1,48 @@
+.cell {
+  display: flex !important;
+  align-content: center;
+}
+
+.clickable:hover {
+  cursor: pointer !important;
+  opacity: 0.7;
+}
+
+.popover_header {
+  padding: 0px 10px !important;
+}
+
+.popover_header_title {
+  font-size: 1rem;
+}
+
+.popover_content {
+  padding: 15px 15px !important;
+  min-width: 400px;
+}
+
+.popover_footer {
+  padding: 0px 10px !important;
+}
+
+.popover_arrow_indicator {
+  position: absolute;
+  right: 10px;
+  bottom: -10px;
+}
+
+.close_icon {
+  display: inline-flex !important;
+  float: right;
+}
+
+.toolbar_container {
+  display: block;
+  padding: 10px 24px;
+  background: #fafafa;
+  margin-bottom: 10px;
+}
+
+.custom_trigger:hover {
+  cursor: pointer !important;
+}

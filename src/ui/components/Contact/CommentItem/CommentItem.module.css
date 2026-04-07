@@ -1,0 +1,46 @@
+.comment {
+  background: #f9f9f9;
+  border-radius: 10px;
+  margin-bottom: 8px;
+  max-width: 100%;
+}
+
+.comment_from {
+  font-size: 0.875rem;
+  font-family: "Play", sans-serif;
+  font-weight: 400;
+  line-height: 1.43;
+}
+
+.comment_text {
+  font-size: 0.875rem;
+  font-family: "Play", sans-serif;
+  font-weight: 400;
+  line-height: 1.43;
+  color: rgba(0, 0, 0, 0.54);
+  padding-right: 130px;
+}
+
+.reply_form {
+  margin-top: 10px;
+  margin-left: 40px;
+}
+
+.comment_actions {
+  text-align: right !important;
+}
+
+.comment_action {
+  margin-right: 5px;
+  opacity: 0.5 !important;
+}
+
+.comment_date {
+  margin-left: 15px;
+}
+
+.children {
+  margin-left: 20px;
+}
+
+/*# sourceMappingURL=CommentItem.module.css.map */

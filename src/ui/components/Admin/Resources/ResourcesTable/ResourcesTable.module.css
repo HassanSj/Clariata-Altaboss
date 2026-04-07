@@ -1,0 +1,12 @@
+.listHeader {
+  background-color: #aeaeae !important;
+}
+
+.listAlignment {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+
+

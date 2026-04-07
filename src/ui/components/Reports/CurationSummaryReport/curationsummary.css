@@ -1,0 +1,153 @@
+.body-copy-curation {
+  margin: 0px;
+}
+
+.curationsummary-table-small {
+    border-collapse: collapse;
+    width: 100%;
+    width: 568px;
+    max-width: 568px;
+    table-layout: fixed;
+    margin-top: 15px;
+}
+
+.curationsummary-table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 568px;
+    table-layout: fixed;
+    margin-top: 15px;
+}
+
+.curationsummary-table td {
+    border: thin solid #72c6c7;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.curationsummary-heading {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+    border-spacing: 2.5px;
+    border-collapse: separate;
+    width: 540px;
+}
+
+.curationsummary-heading p {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    background-color: #72c8c9;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 7.75px;
+    line-height: 9px;
+    padding: 5px;
+    font-family: 'Akzidenz Grotesk BE';
+}
+
+.curationsummary-row {
+    page-break-inside: avoid;
+    display: table;
+    width: 540px;
+    table-layout: fixed;
+    border-spacing: 2.5px;
+    border-collapse: separate;
+}
+
+
+.curationsummary-row:nth-child(odd) .curationsummary-col {
+    background-color: #eef8f7;
+}
+
+.curationsummary-col {
+    display: table-cell;
+    border: .5px solid #eef8f7;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.curationsummary-col p {
+    padding: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 6.75px;
+    line-height: 6.75px;
+    color: #173d68;
+    text-align: center;
+    font-family: 'Akzidenz Grotesk BE';
+}
+
+.curationsummary-images img {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 2.5px 2px 5px;
+    height: 10px;
+    width: auto;
+    }
+
+.curationsummary-details-table {
+    margin: 10px 0px 10px 3px;
+    border-spacing: 1px;
+  }
+
+  .curationsummary-details-table {
+    display: table;
+    width: calc(100% - 6px);
+    table-layout: fixed;
+    border: 1px solid #72c6c7;
+    border-spacing: 5px;
+    border-collapse: collapse;
+    margin-left: 5px;
+    margin-top: 30px;
+    height: 75px;
+  }
+
+  .curationsummary-f-col {
+    display: table-cell;
+    vertical-align: middle;
+    border-right: 1px solid #72c6c7;
+    padding: 0 10px;
+  }
+  .curationsummary-f-col > p {
+    font-size: 6px;
+    line-height: 16px;
+    font-weight: 600;
+    font-family: 'Akzidenz Grotesk BE';
+  }
+
+  .curationsummary-f-row {
+    float: left;
+    width: auto;
+    height: 12px;
+  }
+
+  .curationsummary-f-row img {
+    float: left;
+    width: auto;
+    height: 11px;
+  }
+
+  .k-pdf-export .curationsummary-f-row img {
+    float: left;
+    width: auto;
+    height: 7px;
+  }
+
+  .curationsummary-f-row p {
+    float: left;
+    font-size: 8px;
+    font-family: 'Akzidenz Grotesk BE';
+    line-height: 12px;
+  }
+
+  .k-pdf-export .curationsummary-f-row p {
+    float: left;
+    font-size: 6px;
+    font-family: 'Akzidenz Grotesk BE';
+    line-height: 12px;
+  }

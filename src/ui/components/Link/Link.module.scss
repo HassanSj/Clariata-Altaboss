@@ -1,0 +1,10 @@
+.link {
+  color: blue;
+}
+
+.link:hover,
+.link:focus,
+.link:active,
+.link:visited {
+  text-decoration: none;
+}

@@ -1,0 +1,96 @@
+@import '../../../../public/styles/colors.scss';
+$drawer-width: 240;
+
+.logo {
+  height: 40px;
+}
+
+.title {
+  flex: 1;
+}
+
+.toolbar {
+  padding-right: 24px;
+}
+
+.appBar {
+  color: $color-charcoal !important;
+  background: $color-white !important;
+}
+
+.appBarMinimized {
+  z-index: 1300 !important;
+}
+
+.appBarShift {
+  padding-left: #{$drawer-width + 'px'};
+  width: calc(#{100% -$drawer-width});
+}
+
+.menuButton {
+  margin-right: 36px;
+}
+
+.menuButtonHidden {
+  display: none !important;
+}
+
+.search {
+  position: relative;
+  margin-left: 0;
+  width: 30%;
+}
+
+.searchIcon {
+  height: 100%;
+  position: absolute;
+  pointer-events: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inputRoot {
+  color: inherit;
+}
+
+.inputInput {
+  width: 100%;
+}
+
+.horizontalSpaceRight {
+  margin-right: 15px;
+}
+
+.subAppBar_wrapper {
+  display: flex;
+  position: absolute !important;
+  width: 100%;
+  top: 60px;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+
+.subAppBar {
+  background: $color-brand-light-blue-updated !important;
+  border-radius: 0px !important;
+}
+
+.subAppBarNavItems {
+  border: none !important;
+}
+
+.nav_item {
+  border: none !important;
+  padding: 15px 15px !important;
+  color: $color-black !important;
+  text-transform: none !important;
+}
+
+.nav_item.active {
+  background: $color-brand-orange !important;
+  border-bottom: 5px solid $color-brand-burnt-orange !important;
+  color: $color-white !important;
+}
+

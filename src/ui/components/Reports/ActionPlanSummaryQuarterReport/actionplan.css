@@ -1,0 +1,145 @@
+.ppw-top {
+    padding: 18px 0px 18px 0px;
+}
+
+.action-plan-body-copy {
+    margin: 0px 0 10px;
+}
+.action-plan-table {
+    width: 100%;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+    border-spacing: 0px;
+    font-size: 8px;
+  }
+
+
+  .action-plan-table tr:first-child th {
+    font-size: 8px;
+    color: #fff;
+    background-color: #183e69;
+    border-right: 1px solid #fff;
+    text-align: left;
+    padding: 5px 10px;
+    vertical-align: middle;
+  }
+
+  .action-plan-table tr:first-child th:first-child {
+    background-color: #fff;
+    border: none;
+  }
+  .action-plan-table tr:first-child th:nth-child(5) {
+    border-right: 1px solid #72c6c7;
+  }
+  .action-plan-table tr:first-child th:nth-child(n + 6) {
+    color: #183e69;
+    background-color: #fff;
+    border: .5px solid #72c6c7;
+    text-align: center;
+    min-width: 75px;
+  }
+
+  .action-plan-table tr:nth-child(2) th {
+    font-size: 8px;
+    color: #fff;
+    background-color: #183e69;
+    border-right: .5px solid #fff;
+    border-top: .5px solid #fff;
+    padding: 5px 10px;
+    text-align: left;
+  }
+  
+  .action-plan-table tr:nth-child(4n + 1), .action-plan-table tr:nth-child(4n + 2) {
+    background-color: #fff;
+  }
+  .action-plan-table tr:nth-child(4n), .action-plan-table tr:nth-child(4n + 3) {
+    background-color: #eff8f7;
+  }
+
+  .action-plan-table tr td {
+    border: .5px solid #72c6c7;
+    padding: 5px 5px;
+    font-size: 8px;
+    vertical-align: middle;
+  }
+
+  .action-plan-table tr td:nth-child(3), .action-plan-table tr td:nth-child(5) {
+    text-align: center;
+  }
+
+  .action-plan-details-table {
+    display: table;
+    width: 60%;
+    table-layout: fixed;
+    border: .5px solid #72c6c7;
+    border-spacing: 5px;
+    border-collapse: collapse;
+    margin-left: 45px;
+    margin-top: 18px;
+    align-content: space-between;
+    font-size: 8px;
+    min-width: 400px;
+  }
+
+  .action-plan-f-col:nth-child(1) {
+    width: 100px;
+  }
+
+  .action-plan-f-col:nth-child(2) {
+    width: 70px;
+    border: none;
+  }
+  .action-plan-f-row p {
+    padding: 0 5px;
+  }
+
+  .action-plan-f-row p:last-child {
+    padding: 0 3px;
+  }
+
+  .action-plan-f-col {
+    display: table-cell;
+    vertical-align: middle;
+    border-right: 1px solid #72c6c7;
+    padding: 0 10px;
+    min-width: 220px !important;
+  }
+
+  .action-plan-f-col p {
+    font-size: 8px;
+    line-height: 10px;
+    font-weight: 600;
+  }
+
+  .action-plan-f-row img {
+    float: left;
+    width: auto;
+    height: 10px;
+  }
+  
+  .action-plan-f-row p {
+    float: left;
+    font-size: 8px;  
+    line-height: 10px;
+  }
+
+  .action-plan-image {
+      height: 10px;
+      width: auto;
+  }
+
+.action-plan-legend {
+  margin-right: 5px;
+  white-space: nowrap;
+  min-width: 45px;
+}
+
+.action-plan-legend-img {
+    height: 15px;
+    width: autp;
+    margin-top: 5px;
+}
+
+.action-plan-legend-text {
+    font-size: 8px;
+}
